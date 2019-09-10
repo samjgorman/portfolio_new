@@ -3,12 +3,11 @@ import logo from '../logo.svg';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Header from "../components/header";
 import Divider from "../components/divider";
-import Hero from "../components/hero";
+import Hero from "../hero";
 
 
 
 
-import one from '../images/1.png';
 import two from '../images/2.png';
 import three from '../images/3.png';
 import four from '../images/4.png';
@@ -44,7 +43,8 @@ class Case extends Component {
      <Hero
      textOne = "Built a tech non-profit with 45,000 users."
      textTwo = "Pivoted to a platform to connect college students in need"
-     image = "/images/1.png"
+     image = "./images/d-pl-3@2x.png"
+     color = "#85c7ff"
      ></Hero>
 
      <Divider
