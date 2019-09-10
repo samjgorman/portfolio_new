@@ -1,6 +1,24 @@
 import React, { Component } from 'react';
 import logo from '../logo.svg';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import Header from "../components/header";
+import Divider from "../components/divider";
+import Hero from "../components/hero";
+
+
+
+
+import one from '../images/1.png';
+import two from '../images/2.png';
+import three from '../images/3.png';
+import four from '../images/4.png';
+import five from '../images/5.png';
+import six from '../images/6.png';
+import seven from '../images/7.png';
+import eight from '../images/8.png';
+import nine from '../images/9.png';
+import ten from '../images/10.png';
+
 
 
 class Case extends Component {
@@ -18,8 +36,23 @@ class Case extends Component {
   return (
 
     <div className = 'wrapper'> 
-    <div> Welcome to case</div>    
+     <Header
+     title = "Microscholarships"
+     color = "#ffd692"
+     ></Header>
 
+     <Hero
+     textOne = "Built a tech non-profit with 45,000 users."
+     textTwo = "Pivoted to a platform to connect college students in need"
+     image = "/images/1.png"
+     ></Hero>
+
+     <Divider
+     title = "Prototyping solutions"
+     color = "#ffd692"
+     ></Divider>
+
+   
 
     </div>
   );
