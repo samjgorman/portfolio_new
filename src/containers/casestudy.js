@@ -90,6 +90,7 @@ class Case extends Component {
 
      <SmallImage
      image = "./images/derive@2x.png"
+     caption = "We learned that users prefer a high-fidelity prototype."
      > </SmallImage>
 
    
