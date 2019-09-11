@@ -11,6 +11,7 @@ import SplitImage from "../split-img";
 import Paragraph from "../components/paragraph";
 import Title from "../components/title";
 import Quote from "../components/quote";
+import Footer from "../footer";
 
 
 
@@ -103,7 +104,7 @@ class Case extends Component {
       color = "#85c7ff"
      > </SplitImage>
 
-   
+    <Footer/>
 
     </div>
   );
