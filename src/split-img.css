@@ -1,0 +1,5 @@
+.split-img{
+    grid-area: secondC / secondC / firstR / thirdR;
+    width: 60%;
+
+}

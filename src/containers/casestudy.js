@@ -6,6 +6,8 @@ import Divider from "../components/divider";
 import Hero from "../hero";
 import FullImage from "../full-img";
 import SmallImage from "../small-img";
+import SplitImage from "../split-img";
+
 import Paragraph from "../components/paragraph";
 import Title from "../components/title";
 import Quote from "../components/quote";
@@ -92,6 +94,14 @@ class Case extends Component {
      image = "./images/derive@2x.png"
      caption = "We learned that users prefer a high-fidelity prototype."
      > </SmallImage>
+
+     <SplitImage
+      header = "Peerlift has 175,000 page views, from 43,407 users"
+      textOne = "This is a key point written in Open Sans as part of my portfolio template."
+      textTwo = "Pivoted to a platform to connect college students in need"
+      image = "./images/7.png"
+      color = "#85c7ff"
+     > </SplitImage>
 
    
 
