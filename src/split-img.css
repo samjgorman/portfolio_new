@@ -1,5 +1,13 @@
 .split-img{
     grid-area: secondC / secondC / firstR / thirdR;
     width: 60%;
+    margin-left: 1em;
 
+}
+
+@media (max-width: 800px) {
+    .split-img{
+        width: 100%;
+        margin-left: 0;
+    }
 }
