@@ -4,6 +4,13 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Header from "../components/header";
 import Divider from "../components/divider";
 import Hero from "../hero";
+import FullImage from "../full-img";
+import SmallImage from "../small-img";
+import Paragraph from "../components/paragraph";
+import Title from "../components/title";
+import Quote from "../components/quote";
+
+
 
 
 
@@ -37,7 +44,7 @@ class Case extends Component {
     <div className = 'wrapper'> 
      <Header
      title = "Microscholarships"
-     color = "#ffd692"
+     color = "#85c7ff"
      ></Header>
 
      <Hero
@@ -47,10 +54,43 @@ class Case extends Component {
      color = "#85c7ff"
      ></Hero>
 
+     <Quote
+     text = "This is an in-depth, design-driven look at the process behind pivoting a database for high school opportunities into a marketplace to connect college students with micro-scholarships. I describe the ideation process, building the platform, testing the platform, and the sometimes painful lessons I learned along the way"
+     color = "#85c7ff"
+     ></Quote>
+
+    <FullImage
+    image = "./images/pl-ui@2x.png"
+    ></FullImage>
+
      <Divider
      title = "Prototyping solutions"
      color = "#ffd692"
      ></Divider>
+
+     <Title
+     text = "User flow: Watch and choose a winner for the scholarship you create"
+     ></Title>
+
+     <Paragraph
+     text = "The product I had built curated the top national scholarships, summer programs, awards and more, and streamlined the discovery process into a clean UI. High school students really liked Peerlift - despite the buggy code we quickly pushed out. Our user numbers were growing - not the sort of hockey stick growth I dreamed of, but growing - and was on pace to continue."
+     ></Paragraph>
+
+    <Paragraph
+     text = "The product I had built curated the top national scholarships, summer programs, awards and more, and streamlined the discovery process into a clean UI. High school students really liked Peerlift - despite the buggy code we quickly pushed out. Our user numbers were growing - not the sort of hockey stick growth I dreamed of, but growing - and was on pace to continue."
+     ></Paragraph>
+
+    < Title
+     text = "Building for new users"
+     ></Title>
+
+    <Paragraph
+     text = "The product I had built curated the top national scholarships, summer programs, awards and more, and streamlined the discovery process into a clean UI. ."
+     ></Paragraph>
+
+     <SmallImage
+     image = "./images/derive@2x.png"
+     > </SmallImage>
 
    
 

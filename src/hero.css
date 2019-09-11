@@ -1,10 +1,7 @@
 .hero-img{
     width: 60%;
     height: auto;
-    padding-top: 5%;
-    padding-bottom: 5%;
-    top:50%;
-    left:50%;
+   
 }
 
 @media (max-width: 800px) {
@@ -12,14 +9,6 @@
     
     .hero-img{
         width: 100%;
-
-    }
-  }
-
-  @media (max-width: 800px) {
-
-    
-    .hero-img{
 
     }
   }

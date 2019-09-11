@@ -6,8 +6,8 @@ import './hero.css';
 const Wrapper = styled.div`
     display: flex;
     flex-direction: row;
-    margin-right: 4em;
-    margin-left: 4em;
+    margin-right: 50px;
+    margin-left: 50px;
 
     @media (max-width: 500px) {
       flex-direction: column;
@@ -30,6 +30,10 @@ const Text = styled.div`
     font-size: 26px;
     margin-bottom: 1em;
     padding-right: 2em;
+    @media (max-width: 800px) {
+      padding-right: 0em;
+       
+     }
    
 
 `;
@@ -41,12 +45,13 @@ const Image = styled.div`
 const TextWrapper = styled.div`
     display: flex;
     flex-direction: column;
-    padding-top: 10em;
-    padding-bottom: 10em;
+    padding-top: 5em;
+    padding-bottom: 5em;
 
     @media (max-width: 800px) {
      padding-bottom: 4em;
-     text-align: center;
+     padding-top: 4em;
+     padding-right: 0em;
       
     }
 `;
