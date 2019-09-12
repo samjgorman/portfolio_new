@@ -12,6 +12,7 @@ import Paragraph from "../components/paragraph";
 import Title from "../components/title";
 import Quote from "../components/quote";
 import Footer from "../footer";
+import MyNavbar from "../components/nav";
 
 
 
@@ -45,6 +46,7 @@ class Case extends Component {
   return (
 
     <div className = 'wrapper'> 
+    <MyNavbar> </MyNavbar>
      <Header
      title = "Microscholarships"
      color = "#85c7ff"

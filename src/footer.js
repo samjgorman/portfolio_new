@@ -3,12 +3,6 @@ import styled, { css } from 'styled-components'
 import './footer.css';
 
 
-const Wrapper = styled.div``;
-
-const SocialStyle = styled.div`
-
-`;
-
 const Social = ({image,link}) => {
     return(
     <a className = "link" href= {link} target="_blank"> 
@@ -16,13 +10,8 @@ const Social = ({image,link}) => {
             <i class={image}></i>
         </div>
     </a>
-
-
     )
 }
-
-
-
 
 const Footer = ( {title, color} ) => {
   return(
@@ -46,8 +35,6 @@ const Footer = ( {title, color} ) => {
                     <div className = "section-two-study">🤖   Front-end dev with <b> Peerlift </b></div>
                     <div className = "section-two-study">🎨   UI design with <b> Peerlift </b></div>
             </div>
-
-
 
         </div>
         <div className = "footer-text">Designed + coded by Sam with ❤️</div>

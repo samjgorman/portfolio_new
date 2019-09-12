@@ -1,0 +1,104 @@
+.logo{
+   
+}
+
+.Navbar{
+    padding-top: 2.5vh;
+    padding-bottom: 2.5vh;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 10;
+    display: flex;
+    flex-direction: row;
+}
+
+
+    .menu{
+        display: none;
+
+    }
+
+  
+    .menu-off{
+        display: none;
+    }
+
+    .x-off{
+        display: none;
+    }
+
+
+    #about{
+        margin-left: 60%;
+        margin-right: 5%;
+    }
+
+    #work{
+        margin-right: 10%;
+    }
+
+    .nav-text{
+       
+    }
+
+    .nav-link{
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 18px;
+        color: black;
+    }
+
+    #logo-link{
+        margin-left: 10%;
+    }
+
+    
+
+
+@media screen and (max-width: 800px){
+
+    .mobile-grid{
+        display: grid;
+        grid-template-columns: [firstC] 33% [secondC] 33% [thirdC] 33% ;
+        grid-template-rows: [firstR] 100%;
+
+    }
+
+    .Navbar{
+        z-index: 12;
+    }
+    #nav{
+        display: none;
+    }
+
+    .nav-text{
+        font-size: 14px;
+    }
+
+    .logo{
+        grid-area: firstC / firstC / firstR / firstR;
+
+    }
+
+
+    .menu{
+        display: block;
+        grid-area: thirdC / thirdC / firstR / firstR;
+        justify-self: right;
+        padding-right: 2em;
+        padding-top: 7px;
+        padding-bottom: 7px;
+
+    }
+
+    #logo-link{
+        margin-left: 2em;
+    }
+
+    #about{
+        margin-left: 50%;
+    }
+
+    
+}

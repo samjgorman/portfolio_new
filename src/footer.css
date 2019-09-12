@@ -2,6 +2,8 @@
     border-top-style: solid;
     border-top-width: 0.3em;
     border-top-color: #f7f7f7;
+    padding-left: 20%;
+    padding-right: 20%;
 
 }
 
@@ -20,7 +22,6 @@
 
 .section-one{
     margin-right: 4em;
-    margin-left: 2em;
 }
 
 .section-one-title{
@@ -33,7 +34,6 @@
     font-weight: normal;
     padding-top: 2em;
     padding-bottom: 2em;
-    margin-left: 2em;
   
 }
 
@@ -69,5 +69,13 @@
 @media (max-width: 800px) {
     .footer-section-wrapper{
      flex-direction: column;
+    }
+
+    .section-two{
+        margin-left: 0px;
+    }
+
+    .section-one{
+        margin-right: 0px;
     }
 }
