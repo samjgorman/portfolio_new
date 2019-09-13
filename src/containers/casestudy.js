@@ -15,10 +15,6 @@ import Footer from "../footer";
 import MyNavbar from "../components/nav";
 
 
-
-
-
-
 import two from '../images/2.png';
 import three from '../images/3.png';
 import four from '../images/4.png';
@@ -53,7 +49,7 @@ class Case extends Component {
      ></Header>
 
      <Hero
-     textOne = "Built a tech non-profit with 45,000 users."
+     textOne = "Built a tech non-profit with 60,000 users."
      textTwo = "Pivoted to a platform to connect college students in need"
      image = "./images/d-pl-3@2x.png"
      color = "#85c7ff"
@@ -75,6 +71,7 @@ class Case extends Component {
 
      <Title
      text = "User flow: Watch and choose a winner for the scholarship you create"
+
      ></Title>
 
      <Paragraph
@@ -87,6 +84,8 @@ class Case extends Component {
 
     < Title
      text = "Building for new users"
+     tag = "BACKGROUND"
+     color = "#fe938c"
      ></Title>
 
     <Paragraph
