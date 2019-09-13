@@ -80,7 +80,6 @@ class App extends Component {
     ></FeatureRev>
 
 
-    <Link to = "/case"> Link to a case</Link>
     <Footer/>
 
     
