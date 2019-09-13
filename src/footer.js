@@ -37,7 +37,7 @@ const Footer = ( {title, color} ) => {
             </div>
 
         </div>
-        <div className = "footer-text">Designed + coded by Sam with ❤️</div>
+        <div className = "footer-text">Designed + coded by Sam with ❤️ in React</div>
     </div>
   
   )

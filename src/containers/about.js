@@ -93,9 +93,8 @@ const Bar = styled.div`
 border-top-style: solid;
 border-top-color:#FF3560;
 border-top-width: 2em;
-
-
-
+margin-top: 6em;
+margin-bottom: 6em;
 `;
 
 const InfoWrapper = styled.div`
@@ -139,13 +138,15 @@ const About = ( ) => {
     </Wrapper>
 
     <Bar/>
+    
     <InfoWrapper> 
         <Info> <b> I believe it’s crazy important to know how to ship my own products with code. </b> I built Peerlift with React, Express, MongoDB and Node.JS this summer.  Was sometimes lost in a hellhole of Medium articles and Youtube tutorials, but I learned how to ship products from making Sketch wireframes to writing post-build scripts.</Info>
         <Info> <b>I love learning languages, because they open doors to different ways of thinking.</b>   I taught myself French and German by talking to people and learning from them.  </Info>
-        <Info> <b> My digital life is waaay more organized than my personal one.  </b>I love tools like Notion, Asana and Slack to help teams stay crystal clear.  This website is the result of a spec.
-</Info>
-    
+        <Info> <b> My digital life is waaay more organized than my personal one.  </b>I love tools like Notion, Asana and Slack to help teams stay crystal clear.  This website is the result of a spec.</Info>
     </InfoWrapper>
+
+    <Bar/>
+
     <Footer/>
     </React.Fragment>
 
