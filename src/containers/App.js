@@ -2,6 +2,11 @@ import React, { Component } from 'react';
 import logo from '../logo.svg';
 import { BrowserRouter as Router, Route,Link, Switch } from 'react-router-dom';
 import Case from '../containers/casestudy';
+import About from '../containers/about';
+import MyNavbar from "../components/nav";
+import Footer from "../footer";
+
+
 
 
 class App extends Component {
@@ -18,11 +23,10 @@ class App extends Component {
   render() {
   return (
 
-    <div className = 'wrapper'> 
-    <Router> 
+    <div className = 'home-wrapper'> 
+    <MyNavbar/>
     <Link to = "/case"> Link to a case</Link>
-    <Route path="/case" component={Case} />
-    </Router>
+    <Footer/>
 
     </div>
   );

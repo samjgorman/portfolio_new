@@ -1,0 +1,30 @@
+
+.about-img{
+    width: 25em;
+
+   
+}
+
+
+
+@media (max-width: 1200px) {
+
+
+    .about-img{
+        width: 20em;
+    }
+
+    
+}
+
+@media (max-width: 900px) {
+
+    
+    .about-img{
+        width: 16em;
+        padding-top: 4em;
+    }
+
+   
+    
+}
