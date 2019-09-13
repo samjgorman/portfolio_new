@@ -1,7 +1,10 @@
 import React, {Component} from 'react'; 
 import styled, { css } from 'styled-components'
 import Button from "./components/button";
+import border from "./images/border@2x.svg";
 import './feature.css';
+import { BrowserRouter as Router, Route,Link, Switch } from 'react-router-dom';
+
 
 const Wrapper = styled.div`
     display: flex;
@@ -55,21 +58,33 @@ const Text = styled.div`
     padding-right: 2em;
     line-height: 2;
 
+    @media (max-width: 1500px) {
+        width: 40%;
+
+    }
+
     @media (max-width:1200px) {
       padding-right: 0em;
       font-size: 16px;
 
-      width: 100%;
+      width: 60%;
      }
+
+     @media (max-width:800px) {
+        padding-right: 0em;
+        font-size: 16px;
+  
+        width: 100%;
+       }
 `;
 
 const TextWrapper = styled.div`
      display: flex;
      flex-direction: column;
     padding-bottom: 5em;
-    padding-right: 5%;
+    padding-left: 10%;
     width: 30em;
-
+    margin-right: 20%;
 
     @media (max-width: 800px) {
      padding-bottom: 2em;
@@ -82,7 +97,6 @@ const TextWrapper = styled.div`
 
 const ImageWrapper = styled.div`
 
-margin-right: 20%;
 flex-shrink: 0;
 `;
 
@@ -93,23 +107,29 @@ font-family: Oxygen;
 
 `;
 
-const FeatureRev = ( {title, text, color, image, tag, shade} ) => {
+const FeatureRev = ( {title, text, color, image, tag, shade, link} ) => {
     return(
+        <React.Fragment>
         <Wrapper> 
-        <ImageWrapper> <img className = "about-img" src ={require(`${image}`)} />   </ImageWrapper>
+        <ImageWrapper> <img className = "feature-img" src ={require(`${image}`)} />   </ImageWrapper>
         <TextWrapper>
           <Tag> {tag}</Tag>
           <CaseTitle > {title}  </CaseTitle>
           <Text> {text} </Text>
-          <Button
-            shade = {shade}
-            color = {color}
-            text = "Learn more"
-        ></Button>
+          <Link to = {link}> 
+            <Button
+                shade = {shade}
+                color = {color}
+                text = "Learn more"
+                link = {link}
+            ></Button>
+          </Link>
         </TextWrapper>
        
        
       </Wrapper>
+      
+      </React.Fragment>
     )
   }
   

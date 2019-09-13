@@ -2,6 +2,8 @@ import React, {Component} from 'react';
 import styled, { css } from 'styled-components'
 import Button from "./components/button";
 import './feature.css';
+import { BrowserRouter as Router, Route,Link, Switch } from 'react-router-dom';
+
 
 const Wrapper = styled.div`
     display: flex;
@@ -46,12 +48,13 @@ const Text = styled.div`
     margin-bottom: 2em;
     padding-right: 2em;
     line-height: 2;
+    overflow-wrap: break-word;
+
 
     @media (max-width:1200px) {
       padding-right: 0em;
       font-size: 16px;
 
-      width: 100%;
      }
 `;
 
@@ -64,7 +67,7 @@ const TextWrapper = styled.div`
 
 
     @media (max-width: 800px) {
-     padding-bottom: 2em;
+     padding-bottom: 4em;
      padding-top: 4em;
      padding-right: 0em;
      width: 100%;
@@ -85,21 +88,24 @@ font-family: Oxygen;
 
 `;
 
-const Feature = ( {title, text, color, image, tag, shade} ) => {
+const Feature = ( {title, text, color, image, tag, shade, link} ) => {
     return(
         <Wrapper> 
         <TextWrapper>
           <Tag> {tag}</Tag>
           <CaseTitle > {title}  </CaseTitle>
           <Text> {text} </Text>
+          <Link to = {link}> 
           <Button
             shade = {shade}
             color = {color}
             text = "Learn more"
+            link = {link}
         ></Button>
+        </Link>
         </TextWrapper>
        
-        <ImageWrapper> <img className = "about-img" src ={require(`${image}`)} />   </ImageWrapper>
+        <ImageWrapper> <img className = "feature-img" src ={require(`${image}`)} />   </ImageWrapper>
       </Wrapper>
     )
   }
