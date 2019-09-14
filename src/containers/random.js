@@ -52,8 +52,8 @@ class Random extends Component {
      ></Header>
 
      <Hero
-     textOne = "Built a tech non-profit with 60,000 users."
-     textTwo = "Pivoted to a platform to connect college students in need"
+     textOne = "Working as RandomCoffee's first product designer #1 in Paris, France."
+     textTwo = "Built IOS and web prototypes to help people in business authentically connect."
      image = "./images/rc-final.gif"
      color = "#3C9984"
      ></Hero>
