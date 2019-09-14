@@ -3,6 +3,8 @@ import logo from '../logo.svg';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Header from "../components/header";
 import Divider from "../components/divider";
+import DividerEnd from "../components/dividerend";
+
 import Hero from "../hero";
 import FullImage from "../full-img";
 import SmallImage from "../small-img";
@@ -137,6 +139,25 @@ class Random extends Component {
     image = "./images/message.gif"
     ></FullImage>
 
+    <Paragraph
+    text = "I hopped on a handful of user interviews to get fast feedback on a prototype made on Sketch, and connected through Invision.  The users I spoke to, primarily HR professionals in longstanding enterprise companies, got excited."
+    ></Paragraph>
+
+    <Quote
+     text = "“I like it a lot. This is incredibly helpful.” — HR coordinator at Pearson "
+     color = "#0D179B"
+     ></Quote>
+
+     <Paragraph
+     text = "Users’ top concern? Inputting these skills. It had the potential to take too long, and updating these skills could become a pain. Plus, no company has these skills on file, so the success of the prototype depends on the ease of obtaining information on skills from colleagues. So, we needed to show our value first, and then gradually nudge users to complete this information.Below, after meeting a colleague, users are prompted to share the top skills and competencies they believe their co-worker possesses."
+     >
+     </Paragraph>
+
+     <SmallImage
+     image = "./images/share.png"
+     caption = "Leveraging other people to profile employees' skills."
+     > </SmallImage>
+
      <SplitImage
       header = "Peerlift has 175,000 page views, from 43,407 users"
       textOne = "This is a key point written in Open Sans as part of my portfolio template."
@@ -185,6 +206,34 @@ class Random extends Component {
      text = "Yeah, qualitative is cool, but design doesn’t have to be a dark art. With services like Amplitude and Segment, I was able to quickly create charts around user churn, growth and understand where users got blocked. I introduced Fullstory to the team, which lets you see exactly how your users interact with your product in real-time. We integrated Fullstory into our product cycle to evaluate the UX and value of each feature we shipped."
      > </Paragraph>
 
+    < Title
+     text = "Working in a foreign language forces deliberation of thought."
+     tag = "FOUR"
+     color = "#F5A623"
+     ></Title>
+
+    <Paragraph
+    text = "Writing, interviewing and communicating in French forced me to plan ahead, and be crystal clear on the message I wanted to deliver. I’m much more freewheeling and spontaneous in English, and taking this step back enabled me to add more of a methodology and structure to my work."
+     > </Paragraph>
+
+     <DividerEnd
+     color = "#0D179B"
+     textcolor = "white"
+     >
+     </DividerEnd>
+
+     < Title
+     text = "🚀 Recap + the future"
+     color = "#F5A623"
+     ></Title>
+
+    <Paragraph
+    text = "Over eight weeks, I launched and led our user research. Twenty+ user interviews led us to identify a potentially larger opportunity space — and make the transition from helping colleagues meet each other, to helping colleagues understand the hidden talent in their own company. This led to creating a prototype for what RandomCoffee can become in the near future, and new product features that let us test these hypotheses now."
+     > </Paragraph>
+
+     <Paragraph
+     text = "Working in French, in the middle of Paris, made my experience a real challenge, but a heck of a ride. I’m beyond grateful that they took a chance on this American who wanted to be more than a tourist for a few months, and I’m excited to see what my friends at RandomCoffee brew up next."
+    ></Paragraph>
 
      
 

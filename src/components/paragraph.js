@@ -4,7 +4,7 @@ import styled, { css } from 'styled-components'
 const CaseParagraph = styled.div`
     font-weight: normal;
     font-family: Open Sans;
-    font-size: 21px;
+    font-size: 20px;
     line-height: 34px;
 
     margin-left: 20%;

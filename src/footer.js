@@ -32,7 +32,7 @@ const Footer = ( {title, color} ) => {
             <div className = "section-two"> 
                 <div className = "section-two-title">Case studies:</div>
                     <div className = "section-two-study" >🇫🇷   Product design with <b>RandomCoffee </b></div>
-                    <div className = "section-two-study">🤖   Front-end dev with <b> Peerlift </b></div>
+                    <div className = "section-two-study">🤖   Full stack with <b> Peerlift </b></div>
                     <div className = "section-two-study">🎨   UI design with <b> Peerlift </b></div>
             </div>
 
