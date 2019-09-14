@@ -4,6 +4,8 @@ import styled, { css } from 'styled-components'
 
 const CaseDivider = styled.h1`
     background-color: ${props => props.color};
+    color: ${props => props.textcolor};
+
     padding-top: 3em;
     padding-bottom: 3em;
     padding-left: 2em;
@@ -12,10 +14,10 @@ const CaseDivider = styled.h1`
 `;
 
 
-const Divider = ( {title, color} ) => {
+const Divider = ( {title, color, textcolor} ) => {
 
   return(
-    <CaseDivider color = {color}> {title} </CaseDivider>
+    <CaseDivider color = {color} textcolor = {textcolor}> {title} </CaseDivider>
 
   )
 }

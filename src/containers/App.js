@@ -66,7 +66,7 @@ class App extends Component {
     text = "Working in a French startup as employee #10, and product designer #1."
     shade = "0, 206, 161, 0.5"
     color = "#00cea1"
-    link = "/case"
+    link = "/random"
     ></Feature>
 
     <FeatureRev
