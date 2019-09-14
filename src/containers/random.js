@@ -145,6 +145,49 @@ class Random extends Component {
       color = "#85c7ff"
      > </SplitImage>
 
+    <Divider
+     title = "🤓 Learnings"
+     color = "#0D179B"
+     textcolor = "white"
+     ></Divider>
+
+    < Title
+     text = "Invest in making your team a social home"
+     tag = "ONE"
+     color = "#F5A623"
+     ></Title>
+
+
+    <Paragraph
+     text = "At RC, everyone eats together, every day. Everyone takes at least an hour to eat and recharge at lunch. And everyone is invited to grab drinks every week, not as colleagues, but as friends. This sort of informal, friendly culture builds authentic connection between employees every day, every meal. Us American workaholics could really take a page from our friends across the Atlantic here."
+     > </Paragraph>
+
+
+    < Title
+     text = "Don’t get ready, get started. Build a prototype-interview-iterate workflow."
+     tag = "TWO"
+     color = "#F5A623"
+     ></Title>
+
+
+    <Paragraph
+    text = "I’m guilty of doing too many user interviews to understand the problem before building. I’ve probably done 100+ interviews by now, and I’ve noticed a trend of these conversations leading to more actionable insights after presenting a prototype or rough idea. If I could restart at RC, I would create prototypes from the initial set of hypotheses we had on week one, instead of waiting until week two or so to mock up our first interfaces.    "
+     > </Paragraph>
+
+
+     < Title
+     text = "Data is a designer’s best friend"
+     tag = "THREE"
+     color = "#F5A623"
+     ></Title>
+
+    <Paragraph
+     text = "Yeah, qualitative is cool, but design doesn’t have to be a dark art. With services like Amplitude and Segment, I was able to quickly create charts around user churn, growth and understand where users got blocked. I introduced Fullstory to the team, which lets you see exactly how your users interact with your product in real-time. We integrated Fullstory into our product cycle to evaluate the UX and value of each feature we shipped."
+     > </Paragraph>
+
+
+     
+
     <Footer/>
 
     </div>
