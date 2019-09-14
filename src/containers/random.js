@@ -158,13 +158,39 @@ class Random extends Component {
      caption = "Leveraging other people to profile employees' skills."
      > </SmallImage>
 
-     <SplitImage
-      header = "Peerlift has 175,000 page views, from 43,407 users"
-      textOne = "This is a key point written in Open Sans as part of my portfolio template."
-      textTwo = "Pivoted to a platform to connect college students in need"
-      image = "./images/message.gif"
-      color = "#85c7ff"
-     > </SplitImage>
+
+    <SmallImage
+     image = "./images/skills.png"
+     caption = "Progressively share skills directly in-app."
+     > </SmallImage>
+
+    < Title
+     text = "Integration into current product"
+     tag = "PROTOTYPES"
+     color = "#F5A623"
+     ></Title>
+
+     <Paragraph 
+     text = "We wanted to test this concept with real users fast — and we were looking at much less engineering time by integrating these concepts in the current product vs building the standalone app I prototyped. I was looking to explore the following two hypotheses."
+    ></Paragraph>
+
+    <Paragraph
+    text = "1) Employees in large companies want to directly contact colleagues they may not know, but who share skills they wish to learn about."
+    ></Paragraph>
+
+    <Paragraph
+    text = "2) Employees acting as administrators for their colleagues aren’t necessary. Instead, enable people to direct contact others they’re interested in connecting with."
+    ></Paragraph>
+
+    <Paragraph
+    text = "From their RandomCoffee dashboard, users can directly request an introduction. Before, they had to wait for the next wave of introductions, as specified by an administrator. Colleagues were put in contact with each other every few weeks, as specified by an administrator. However, we received feedback suggesting that enabling a direct introduction as well might positively impact the user experience, so co-workers had the option to instantly get an introduction as soon as they entered the platform."
+    ></Paragraph>
+
+    <FullImage
+    image = "./images/screen@2x.png"
+    ></FullImage>
+
+  
 
     <Divider
      title = "🤓 Learnings"
