@@ -38,6 +38,11 @@
     .logo{
         width: 3em;
         height: 2em;
+        font-family: Rubik-Black;
+        font-size: 34px;
+        font-weight: 700;
+        color:#F03F6D;
+
     }
 
     
@@ -56,7 +61,6 @@
     }
 
     .logo{
-        grid-area: firstC / firstC / firstR / firstR;
 
     }
 
