@@ -1,4 +1,10 @@
 
+@font-face {
+    font-family: 'Rubik-Black';
+    src: url('../fonts/Rubik-Black.ttf') format('truetype'); 
+        
+}
+
 .Navbar{
     padding-top: 2.5vh;
     padding-bottom: 2.5vh;
@@ -38,7 +44,7 @@
     .logo{
         width: 3em;
         height: 2em;
-        font-family: Rubik-Black;
+        font-family: 'Rubik-Black', sans-serif;
         font-size: 34px;
         font-weight: 700;
         color:#F03F6D;
