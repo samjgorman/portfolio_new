@@ -7,6 +7,8 @@ import Hero from "../hero";
 import FullImage from "../full-img";
 import SmallImage from "../small-img";
 import SplitImage from "../split-img";
+import DividerEnd from "../components/dividerend";
+
 
 import Paragraph from "../components/paragraph";
 import Title from "../components/title";
@@ -64,11 +66,6 @@ class Case extends Component {
     image = "./images/pl-ui@2x.png"
     ></FullImage>
 
-     <Divider
-     title = "Prototyping solutions"
-     color = "#ffd692"
-     ></Divider>
-
      <Title
      text = "User flow: Watch and choose a winner for the scholarship you create"
 
@@ -82,6 +79,86 @@ class Case extends Component {
      text = "The product I had built curated the top national scholarships, summer programs, awards and more, and streamlined the discovery process into a clean UI. High school students really liked Peerlift - despite the buggy code we quickly pushed out. Our user numbers were growing - not the sort of hockey stick growth I dreamed of, but growing - and was on pace to continue."
      ></Paragraph>
 
+    <Divider
+     title = "Flow one: Create a micro-scholarship in under five minutes"
+     color = "#ffd692"
+     ></Divider>
+
+
+    < Title
+     text = "Enable prospective donors to quickly and easily create a micro-scholarship in under five minutes. "
+     tag = "GOAL"
+     color = "#EABA04"
+     ></Title>
+
+    <Paragraph
+    text = "Most working professionals we spoke to believed that creating their own scholarship was financially out of reach. However, following through on that action created strong feelings of fulfillment and achievement."
+    ></Paragraph>
+
+    <Paragraph
+    text = "To break this fear, the scholarship creation flow had to assume zero knowledge about scholarships, and abstract away any non-essential information to leave donors feeling in control."
+    ></Paragraph>
+
+    <Title 
+    text = "Lo-fi prototypes"
+    ></Title>
+
+    <SmallImage
+     image = "./images/criteria v1.png"
+     caption = "The initial prototype for the creation phase."
+     > </SmallImage>
+
+    <SplitImage
+      header = "Learnings for medium-fi"
+      textOne = "Make it clear that users can choose criteria for their micro-scholarship, but they don't have to."
+      textTwo = "Provide context of how a donor's scholarship will impact students whenever possible."
+      image = "./images/donor choices.png"
+      color = "#85c7ff"
+     > </SplitImage>
+
+    <Title 
+    text = "Medium-fi prototypes"
+    ></Title>
+
+    <Paragraph
+    text = " I created a series of wireframes to map out the actual flow, and then connected them together with Invision. For feedback, I walked through the creation process with professionals that I contacted and met with at Box, Airbnb, Okta, Google, and Docusign."
+    ></Paragraph>
+
+    <FullImage
+    image = "./images/mid-fi flow.png"
+    ></FullImage>
+
+    <Title
+    text = "Determining criteria for a micro-scholarship:"
+    tag = "SECTION ONE"
+     color = "#EABA04"
+    ></Title>
+
+<   Paragraph
+    text = "Here’s what I quickly learned wasn’t working."
+    ></Paragraph>
+
+    <SmallImage
+     image = "./images/criteria v3.png"
+     caption = "The initial prototype for the creation phase."
+     > </SmallImage>
+
+     <Paragraph
+     text = "From that feedback, I created another flow over the next day and a half, and significantly reduced the length of the creation experience. The criteria page now was a single page, instead of a four-page long click-through experience."
+     ></Paragraph>
+
+     <FullImage image = "./images/build scholarship.png"/>
+
+
+
+
+
+
+    <Divider
+     title = "Flow two: Watch and choose a winner for the scholarship you create"
+     color = "#ffd692"
+     ></Divider>
+
     < Title
      text = "Building for new users"
      tag = "BACKGROUND"
@@ -93,17 +170,46 @@ class Case extends Component {
      ></Paragraph>
 
      <SmallImage
-     image = "./images/derive@2x.png"
+     image = "./images/final.gif"
      caption = "We learned that users prefer a high-fidelity prototype."
      > </SmallImage>
 
-     <SplitImage
-      header = "Peerlift has 175,000 page views, from 43,407 users"
-      textOne = "This is a key point written in Open Sans as part of my portfolio template."
-      textTwo = "Pivoted to a platform to connect college students in need"
-      image = "./images/7.png"
-      color = "#85c7ff"
-     > </SplitImage>
+   
+
+    <Divider
+     title = "🤠 Learnings"
+     color = "#ffd692"
+     ></Divider>
+
+
+    < Title
+     text = "Be vigilant about getting lost in the weeds for visual design on time-sensitive projects.     "
+     tag = "ONE"
+     color = "#EABA04"
+     ></Title>
+
+    <Paragraph
+    text = "This is the equivalent of writing beautiful, elegant, robust code on a time crunch — yes, it’s important, but it’s often a lot more important to ship the product on time. With design, it’s easy to get lost adding flair to micro-interactions and visual assets, but at least on a design team of one for a product that shipped in 3 weeks, there was less of a place for that.    "
+     ></Paragraph>
+    
+    <FullImage
+     image = "./images/assets.png"
+     > </FullImage>
+
+    < Title
+    text = "What worked for other products won’t necessarily work for my product."
+     tag = "TWO"
+     color = "#EABA04"
+     ></Title>
+
+    <Paragraph
+    text = "This is the equivalent of writing beautiful, elegant, robust code on a time crunch — yes, it’s important, but it’s often a lot more important to ship the product on time. With design, it’s easy to get lost adding flair to micro-interactions and visual assets, but at least on a design team of one for a product that shipped in 3 weeks, there was less of a place for that.    "
+     ></Paragraph>
+
+     <DividerEnd
+        color = "#ffd692"
+
+     ></DividerEnd>
 
     <Footer/>
 

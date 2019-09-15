@@ -71,9 +71,9 @@ class App extends Component {
 
     <FeatureRev
     image = "./images/microfeature@2x.png"
-    tag = "ENGINEERING"
-    title = "Peerlift"
-    text = "Shipping a React app for 60,000+ users from scratch."
+    tag = "UI DESIGN"
+    title = "Microscholarships"
+    text = "Building scholarships of the future for 60,000+ users and counting."
     shade = "46, 141, 241, 0.5"
     color = "#2e8df1"
     link = "/case"
