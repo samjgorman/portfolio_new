@@ -46,6 +46,10 @@
     margin-bottom: 1.5em;
 }
 
+.section-two-study{
+    margin-bottom: 0.5em;
+}
+
 .icon-wrapper{
     background-color: black;
     color: white;
@@ -78,4 +82,14 @@
     .section-one{
         margin-right: 0px;
     }
+
+    .footer-wrapper{
+        padding-left: 7vw;
+        padding-right: 7vw;
+    }
+
+    .section-two-study{
+        margin-bottom: 0.8em;
+    }
+    
 }
