@@ -58,26 +58,29 @@ class Case extends Component {
      ></Hero>
 
      <Quote
-     text = "This is an in-depth, design-driven look at the process behind pivoting a database for high school opportunities into a marketplace to connect college students with micro-scholarships. I describe the ideation process, building the platform, testing the platform, and the sometimes painful lessons I learned along the way"
+     text = "I co-founded Peerlift last year, a tech nonprofit that lets anyone create a micro-scholarship, and enables college students in need to apply and win on our site. Before building a marketplace, Peerlift was a database of resources for college, and we grew to 45,000 users and 175,000 pageviews within a year.  This case study goes deep into the UI and technical decisions I made creating Peerlift's micro-scholarship platform over three weeks in August 2018. I was working full-time in San Francisco on Peerlift with my co-founders, and we were part of the Fast Forward Accelerator, where we received $25,000, mentorship, and support."
      color = "#85c7ff"
      ></Quote>
 
-    <FullImage
-    image = "./images/pl-ui@2x.png"
-    ></FullImage>
-
      <Title
-     text = "User flow: Watch and choose a winner for the scholarship you create"
-
+      text = "Build a platform to enable anyone to quickly create a micro-scholarship, and let students apply and win directly on the platform."
+      tag = "GOAL"
+      color = "#EABA04"
      ></Title>
 
-     <Paragraph
-     text = "The product I had built curated the top national scholarships, summer programs, awards and more, and streamlined the discovery process into a clean UI. High school students really liked Peerlift - despite the buggy code we quickly pushed out. Our user numbers were growing - not the sort of hockey stick growth I dreamed of, but growing - and was on pace to continue."
-     ></Paragraph>
+    <FullImage
+    image = "./images/pl-ui@2x.png"
+    caption = "Mobile view of the launchpage for microscholarships."
+    ></FullImage>
 
     <Paragraph
-     text = "The product I had built curated the top national scholarships, summer programs, awards and more, and streamlined the discovery process into a clean UI. High school students really liked Peerlift - despite the buggy code we quickly pushed out. Our user numbers were growing - not the sort of hockey stick growth I dreamed of, but growing - and was on pace to continue."
+    text = "This was a big product- essentially, build a marketplace from scratch. As this marketplace had two sides, I would have to design and build for the needs of each target group - working professionals and college students in financial need, and minimize the friction between their interactions. I made the decision to focus on the donor's needs first, because as the supply in our marketplace, they were critical to getting initial traction. This case study focuses on the main donor flows I worked through, because they were the most challenging problems I experienced."
      ></Paragraph>
+
+    < SmallImage
+     image = "./images/final.gif"
+     caption = "Overview of desktop launch page."
+     > </SmallImage>
 
     <Divider
      title = "Flow one: Create a micro-scholarship in under five minutes"
@@ -100,7 +103,7 @@ class Case extends Component {
     ></Paragraph>
 
     <Title 
-    text = "Lo-fi prototypes"
+    text = "Low-fidelity prototypes"
     ></Title>
 
     <SmallImage
@@ -117,7 +120,7 @@ class Case extends Component {
      > </SplitImage>
 
     <Title 
-    text = "Medium-fi prototypes"
+    text = "Medium-fidelity prototypes"
     ></Title>
 
     <Paragraph
@@ -148,11 +151,48 @@ class Case extends Component {
      ></Paragraph>
 
      <FullImage image = "./images/build scholarship.png"/>
+     
+     <Paragraph
+     text = "Awesome - the scholarship creation form was now a fraction of its original length, and provided context on where their award would go."
+     ></Paragraph>
 
+    <Title
+    text = "Preview a user's micro-scholarship"
+    tag = "SECTION TWO"
+     color = "#EABA04"
+    ></Title>
 
+    <Paragraph
+    text = "This page served duel roles for the user and Peerlift - for the user, they receive an elegant, in-context view of what their micro-scholarship would look like when they confirm. For Peerlift, this was our opportunity to get buy-in on a transaction fee.Since the donor was doing a charitable act, I had to design carefully around the presentation of a fee between 10–15%."
+    ></Paragraph>
 
+    <SmallImage
+     image = "./images/fee.png"
+     caption = "The initial prototype for the creation phase."
+     > </SmallImage>
 
+     <Paragraph
+     text = "Users craved more information around what the fee would go towards, and some expressed frustration at a fee being forced upon them. Rather than forcing a hidden fee on users, I prototyped enabling donors to decide whether they would cover a platform fee, or reduce that amount from their micro-scholarship, essentially passing that charge to the student."
+     ></Paragraph>
 
+    <SmallImage
+     image = "./images/fee 2-min.png"
+     caption = "The initial prototype for the creation phase."
+     > </SmallImage>
+
+    <Paragraph
+    text = "The response from the following 10+ potential donors I demoed our progress to was incredibly positive (yay!). They appreciated having a voice in where the fee went, and 10/10 chose to cover the platform fee themselves."
+    ></Paragraph>
+
+    <Title
+    text = "High-fidelity prototypes"
+    tag = "WRAP-UP"
+     color =  "#FFB7CB"
+    ></Title>
+
+     <FullImage
+    image = "./images/final flow.png"
+    ></FullImage>
 
     <Divider
      title = "Flow two: Watch and choose a winner for the scholarship you create"
@@ -160,21 +200,77 @@ class Case extends Component {
      ></Divider>
 
     < Title
-     text = "Building for new users"
+    text = "Create a streamlined process and visual display for donors to compare applicants and select a winner."
+     tag = "GOAL"
+     color = "#EABA04"
+     ></Title>
+
+
+    < Title
      tag = "BACKGROUND"
      color = "#fe938c"
      ></Title>
 
     <Paragraph
-     text = "The product I had built curated the top national scholarships, summer programs, awards and more, and streamlined the discovery process into a clean UI. ."
+    text = "Students apply to micro-scholarships on Peerlift with 1–2 minute long, Snapchat-style videos, in response to a question the donor selects. Each donor receives between 8 and 15 applicants."
      ></Paragraph>
 
-     <SmallImage
-     image = "./images/final.gif"
+     <Paragraph
+     text = "I started by imagining what an 11/10 experience would be for a donor making a decision, with a quick (and definitely messy) storyboard."
+     ></Paragraph>
+
+    <SmallImage
+     image = "./images/comic 1.jpg"
      caption = "We learned that users prefer a high-fidelity prototype."
      > </SmallImage>
 
-   
+   <Paragraph 
+   text = "With ideas swirling around, I asked the team to each record a short video of themselves to a given prompt, as if they were applying to a scholarship. We then came together to decide who should win. Even in such a low-stakes, no tech setting, some things became immediately important to design for."
+   ></Paragraph>
+
+    <Paragraph
+    text = "1.  Authenticity and passion were immediate signals of quality candidates."
+     ></Paragraph>
+
+    <Paragraph
+    text = "2.  Decision making was qualitative and criteria varied across individuals."
+     ></Paragraph>
+
+    <Paragraph
+    text = "3.  The direct nature of watching videos of real students, and awarding real money, is memorable and emotionally charged."
+     ></Paragraph>
+
+    <Title 
+    text = "Medium-fidelity prototypes"
+    ></Title>
+
+    <SmallImage
+     image = "./images/choose early-min.png"
+     caption = "The initial prototype for the creation phase."
+     > </SmallImage>
+
+     <Paragraph 
+     text = "The decision to display multiple candidates in one view was well received, but people felt very uncomfortable at having to rate students on a star scale they would normally reserve for their UberEATS driver or Airbnb host."
+     ></Paragraph>
+
+    <Title 
+    text = "High-fidelity prototypes"
+    ></Title>
+
+    <SmallImage
+     image = "./images/choose early 2.png"
+     caption = "The initial prototype for the creation phase."
+     > </SmallImage>
+
+     <FullImage
+    image = "./images/choose black.png"
+
+     ></FullImage>
+
+
+     
+
+    
 
     <Divider
      title = "🤠 Learnings"
@@ -191,6 +287,7 @@ class Case extends Component {
     <Paragraph
     text = "This is the equivalent of writing beautiful, elegant, robust code on a time crunch — yes, it’s important, but it’s often a lot more important to ship the product on time. With design, it’s easy to get lost adding flair to micro-interactions and visual assets, but at least on a design team of one for a product that shipped in 3 weeks, there was less of a place for that.    "
      ></Paragraph>
+
     
     <FullImage
      image = "./images/assets.png"
