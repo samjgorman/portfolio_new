@@ -1,17 +1,8 @@
 import React, {Component} from 'react'; 
 import styled, { css } from 'styled-components'
 import './footer.css';
+import Social from "./components/social";
 
-
-const Social = ({image,link}) => {
-    return(
-    <a className = "link" href= {link} target="_blank"> 
-        <div className = "icon-wrapper"> 
-            <i class={image}></i>
-        </div>
-    </a>
-    )
-}
 
 const Footer = ( {title, color} ) => {
   return(
@@ -26,6 +17,8 @@ const Footer = ( {title, color} ) => {
                 link = "https://medium.com/@gormansam"/>
                 <Social image = "fab fa-linkedin-in"
                 link = "https://www.linkedin.com/in/gormansam/"/>
+                 <Social image = "fab fa-github"
+                link = "https://github.com/samjgorman"/>
             </div>
 
 

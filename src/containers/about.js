@@ -5,6 +5,8 @@ import Footer from "../footer";
 import MyNavbar from "../components/nav";
 import sam from '../images/sam.jpg';
 import Paragraph from "../components/paragraph";
+import Social from "../components/social";
+
 
 
 
@@ -36,7 +38,6 @@ const CaseTitle = styled.div`
     font-size: 3rem;
     line-height: 1.4;
     font-weight: 600;
-    margin-bottom: 1em;
     width: 10em;
 
     @media (max-width: 1200px) {
@@ -123,6 +124,15 @@ margin-top: 1.5em;
 margin-bottom: 1.5em;
 `;
 
+const SocialWrapper = styled.div`
+display: flex; 
+flex-direction: row;
+margin-top: 0.5em;
+margin-bottom: 0.5em;
+
+
+`;
+
 
 const About = ( ) => {
   return(
@@ -132,6 +142,16 @@ const About = ( ) => {
     <Wrapper> 
       <TextWrapper>
         <CaseTitle > I’m interested in community.  </CaseTitle>
+        <SocialWrapper> 
+        <Social image = "fab fa-dribbble"
+                link = "https://dribbble.com/samjgorman"/>
+                <Social image = "fab fa-medium-m"
+                link = "https://medium.com/@gormansam"/>
+                <Social image = "fab fa-linkedin-in"
+                link = "https://www.linkedin.com/in/gormansam/"/>
+                 <Social image = "fab fa-github"
+                link = "https://github.com/samjgorman"/>
+        </SocialWrapper>
         <Text> I’m a designer, entrepreneur, and junior at Stanford who cares about people-powered action.  It’s why I built Peerlift, a startup that’s helped 60,000 students find scholarships for college.   And it’s why I spent time in Paris this year as product designer #1 at an early-stage French startup.  New language, new culture, same mission. </Text>
       </TextWrapper>
       <ImageWrapper> <img className = "about-img" src ={sam} />   </ImageWrapper>
