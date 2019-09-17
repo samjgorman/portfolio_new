@@ -32,12 +32,23 @@ class Connect extends Component {
   
       <div className = 'home-wrapper'> 
       <MyNavbar/>
+
+    <Header
+    title = "Peerlift Connect"
+    color = "#FF6D96"
+    ></Header>
+
+     <Hero
+     textOne = "Sample text one"
+     textTwo = "Pivoted to a platform to connect college students in need"
+     image = "./images/d-pl-3@2x.png"
+     color = "#FF6D96"
+     ></Hero>
       
-  
+    <FullImage
+    image = "./images/moodboard@2x.png"
+    ></FullImage>
       <Footer/>
-  
-      
-  
       </div>
     );
   }
