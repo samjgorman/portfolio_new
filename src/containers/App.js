@@ -77,7 +77,20 @@ class App extends Component {
     shade = "46, 141, 241, 0.5"
     color = "#2e8df1"
     link = "/case"
+    background = "#ffd692"
     ></FeatureRev>
+
+    <FeatureRev
+    image = "./images/pink@2x.png"
+    tag = "FULL-STACK"
+    title = "Peerlift Connect"
+    text = "Building scholarships of the future for 60,000+ users and counting."
+    shade = "255, 109, 150, 0.5"
+    color = "#FF6D96"
+    link = "/connect"
+    ></FeatureRev>
+
+    
 
 
     <Footer/>

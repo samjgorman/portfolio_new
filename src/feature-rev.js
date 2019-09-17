@@ -18,7 +18,7 @@ const Wrapper = styled.div`
     margin-left: 10%;
     margin-right: 10%;
 
-    background-color: #ffd692;
+    background-color: ${props => props.background};
     padding-top: 6em;
     padding-bottom: 6em;
     
@@ -104,13 +104,12 @@ const Tag = styled.div`
 font-family: Oxygen;
   font-size: 12px;
   font-weight: bold;
-
 `;
 
-const FeatureRev = ( {title, text, color, image, tag, shade, link} ) => {
+const FeatureRev = ( {title, text, color, image, tag, shade, link, background} ) => {
     return(
         <React.Fragment>
-        <Wrapper> 
+        <Wrapper background = {background}> 
         <ImageWrapper> <img className = "feature-img" src ={require(`${image}`)} />   </ImageWrapper>
         <TextWrapper>
           <Tag> {tag}</Tag>
