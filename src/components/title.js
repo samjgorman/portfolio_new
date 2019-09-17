@@ -40,7 +40,7 @@ color: ${props => props.color};
 
 font-family: Oxygen;
   font-size: 14px;
-  font-weight: 800;
+  font-weight: 900;
   margin-bottom: 0.5em;
 `;
 

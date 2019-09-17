@@ -181,11 +181,104 @@ class Connect extends Component {
     textcolor = "white"
     ></Divider>
 
+    <Paragraph
+    text = "This section gets somewhat technical: I talk about the technical decisions I made and how I actually built the product. However, I'm staying high-level, and won't assume prior knowledge in software. I'm more interested in explaining my process for product-building in this case-study than getting in the weeds of the implementation."
+    ></Paragraph>
+
+    <Paragraph
+    text = "I made all technical choices through the lens of what would enable me to build the fastest, and what would minimize the amount of code I needed to write. This was my first time shipping a full web app by myself, so there was lots of learning, failing, and Stack Overflow'ing along the way."
+    ></Paragraph>
+
+    <Title
+    text = "Product management"
+    ></Title>
+
+    <Paragraph
+    text = "I used Notion to spec out this project for myself, and kept running to-do's to stay efficient. I always use a tool like Notion or Asana when I've led small product teams in the past, and found it to be equally useful as an individual."
+    ></Paragraph>
+
 
     <SmallImage
     image = "./images/notion.png"
     caption = "I like to stay organized, and Notion boards like this helped me do that."
     ></SmallImage>
+
+    <SplitImage
+    textOne = "Each task has corresponding to-do's. "
+    textTwo = "All decisions are well-documented for reference."
+
+    image = "./images/notiontodo.png"
+    ></SplitImage>
+
+
+    <Title
+    text = "Front-end framework: React"
+    ></Title>
+
+    <Paragraph
+    text = "For the front-end of the web-app, I chose React, a popular Javascript framework that enables developers to reuse components and easily manage the relationships between these components."
+    ></Paragraph>
+
+
+    <Title
+    text = "Back-end framework: Node.js and Express"
+    ></Title>
+
+    <Paragraph
+    text = "For the back-end of Peerlift, I chose Node.JS, with an Express server. Writing the full-application in Javascript enables easier integration between the front and back-ends of the app. Further, Express, a popular framework for Node.JS, abstracts away many more complicated server-side functions, and enables me to focus on building the app."
+    >
+    </Paragraph>
+
+    <Title
+    text = "Database: MongoDB Atlas with Mongoose"
+    ></Title>
+
+    <Paragraph
+    text = "I chose MongoDB Atlas for our database - a noSQL database-in-the-cloud that offers a flexible data structure for changing data. Previously, I had used mySQL for Peerlift, which has rigid data schemes that limited ability to scale content. Using MongoDB meant I could define flexible data schemas with Mongoose, a popular library that enables definition of data schemas directly in my server-side Node.JS code. Faster development, less code - and everyone is happy."
+    ></Paragraph>
+
+    <Title
+    text = "Production: Heroku"
+    ></Title>
+
+    <Paragraph
+    text = "Finally, I deployed the production-build of Peerlift to Heroku, a platform-as-a-service that enables rapid deployment. Old Peerlift was hosted on Amazon Web Services (AWS), which offers lots of customization, but is often overly complex to ship an early iteration of a product."
+    ></Paragraph>
+
+    <Title
+    text = "Why these technical decisions matter"
+    ></Title>
+
+    <Title
+    tag = "FOR USERS"
+    color = "#EABA04"
+    ></Title>
+
+    <Paragraph
+    text = "Waaay faster load-times. Thanks to React, Peerlift was now a single-page-application, or SPA. That means the app only gets loaded once initially, and users then experience near-instantaneous load-times for all subsequent pages afterward. We love a fast website."
+    ></Paragraph>
+
+    <Title
+    tag = "FOR PEERLIFT"
+    color = "#FF6D96"
+    ></Title>
+
+    <Paragraph
+    text = "Magnitudes easier to ship new features for users. The reusable nature of React meant that front-end changes are now much easier to make, with less code. No more 5,000 lines of main.css or chain of jQuery functions."
+    ></Paragraph>
+
+    <Title
+    tag = "FOR PEERLIFT"
+    color = "#FF6D96"
+
+    ></Title>
+
+    <Paragraph
+    text = "Access to rapid feedback. Using these technologies let me ship the app in three weeks, instead of five or more. I optimized for frameworks that increased productivity and efficiency over frameworks that offered more granular control, but wasted time."
+    ></Paragraph>
+
+
+
 
     < Divider
     title = "Learnings"
