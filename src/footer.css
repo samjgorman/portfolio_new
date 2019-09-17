@@ -70,6 +70,15 @@
     cursor:pointer;  
 }
 
+.footerLink{
+    text-decoration: none;
+    color: black;
+}
+
+.footerLink:hover{
+    text-decoration: none;
+}
+
 @media (max-width: 800px) {
     .footer-section-wrapper{
      flex-direction: column;

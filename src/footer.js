@@ -2,6 +2,8 @@ import React, {Component} from 'react';
 import styled, { css } from 'styled-components'
 import './footer.css';
 import Social from "./components/social";
+import { Link, BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+
 
 
 const Footer = ( {title, color} ) => {
@@ -24,9 +26,9 @@ const Footer = ( {title, color} ) => {
 
             <div className = "section-two"> 
                 <div className = "section-two-title">Case studies:</div>
-                    <div className = "section-two-study" >🇫🇷   Product design with <b>RandomCoffee </b></div>
-                    <div className = "section-two-study">🤖   Full stack with <b> Peerlift </b></div>
-                    <div className = "section-two-study">🎨   UI design with <b> Peerlift </b></div>
+                    <div className = "section-two-study" >🇫🇷   <Link className = "footerLink" to = "/random"> Product design with <b>RandomCoffee </b> </Link></div>
+                    <div className = "section-two-study">🤖   <Link className = "footerLink"to = "/connect"> Full stack with <b> Peerlift </b> </Link></div>
+                    <div className = "section-two-study">🎨   <Link className = "footerLink" to = "/case"> UI design with <b> Peerlift </b></Link> </div>
             </div>
 
         </div>
