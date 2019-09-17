@@ -103,19 +103,100 @@ class Connect extends Component {
     text = "Thalia is motivated for college, but wasn't sure where to start with the college process. Wants to apply to scholarships but not quite sure how to start."
     ></Paragraph>
 
+    <Divider
+    title = "Designing a people-powered brand."
+    color = "#1493FF"
+    textcolor = "white"
+    ></Divider>
 
     <Title
-    text = "Moodboard"
+    text = "Designing against the status quo."
+    ></Title>
+
+    <Paragraph
+    text = "The most-visited scholarship sites are cluttered, confusing and clinical.  Students actually hate using them-- no exaggeration."
+    ></Paragraph>
+
+
+
+    <SmallImage
+    image = "./images/competition@2x.png"
+    caption = "Top competition is cluttered and clinical.  "
+    ></SmallImage>
+
+
+    <Title
+    text = "Your scholarship search, but human 🤠"
+    ></Title>
+
+    <Paragraph
+    text = "Think of Peerlift as the Glossier of scholarships. "
+    ></Paragraph>
+
+    <Paragraph
+    text = "I wanted to capture the authenticity and community of Glossier with the simplicity of Intercom or Notion."
+    ></Paragraph>
+
+    <Paragraph
+    text = "Peerlift needed to feel friendly, accessible, like a friend who just offered to help."
+    ></Paragraph>
+
+    <Paragraph
+    text = "That's why I used real photos of real users and makers of Peerlift on our site. Showing the authentic selves of the people who live and love Peerlift humanizes the brand and builds student-to-student connection."
+    ></Paragraph>
+    <Title
+    text = "Moodboard:"
     ></Title>
       
     <FullImage
     image = "./images/moodboard@2x.png"
     ></FullImage>
 
+    <SplitImage
+    header = "Radically simple & friendly."
+    textOne = "A brand that talks like a human. "
+    textTwo = "Immediately access useful content. "
+
+    image = "./images/mobilehero@2x.png"
+    ></SplitImage>
+
+    <SmallImage
+    image = "./images/laptop@2x.png"
+    caption = "Highlighting how Amel won money on Peerlift helps other students believe they can too."
+    ></SmallImage>
+
+    
+
+
+
+    <Divider
+    title = "Designing a social product."
+    color = "#1493FF"
+    textcolor = "white"
+    ></Divider>
+
+    < Divider
+    title = "Shipping a web app."
+    color = "#1493FF"
+    textcolor = "white"
+    ></Divider>
+
+
     <SmallImage
     image = "./images/notion.png"
     caption = "I like to stay organized, and Notion boards like this helped me do that."
     ></SmallImage>
+
+    < Divider
+    title = "Learnings"
+    color = "#1493FF"
+    textcolor = "white"
+    ></Divider>
+
+    <DividerEnd
+        color = "#1493FF"
+
+    ></DividerEnd>
 
     <Footer/>
 
