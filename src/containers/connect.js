@@ -46,7 +46,7 @@ class Connect extends Component {
      ></Hero>
 
      <Quote
-     text = "This case study describes how I redesigned and rebuilt Peerlift, a platform I co-founded to connect high school students to scholarships. Before the rebuild, I scaled Peerlift to 60,000 users over 12 months. Here, I explain the decision to change, how I designed the new product, and how I shipped it in code."
+     text = "This case study describes how I redesigned and rebuilt Peerlift (peerlift.org), a platform I co-founded to connect high school students to scholarships. Before the rebuild, I scaled Peerlift to 60,000 users over 12 months. Here, I explain the decision to change, how I designed the new product, and how I shipped it in code."
      color ="#EABA04"
      ></Quote>
 
