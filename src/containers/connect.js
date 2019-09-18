@@ -196,9 +196,37 @@ class Connect extends Component {
     text = "Sharing content with friends"
     ></Title>
 
+    <Paragraph
+    text = "Miguel explained how he wants to share information about opportunities with his friends.  However, many of these scholarship websites are difficult to use and outdated.  They're not the type of thing you enjoy sharing with a close friend of yours.  That's why I designed opportunity pages, or pages for each scholarship or summer program with critical information and a unique URL. "
+    ></Paragraph>
+
+    <Paragraph
+    text = "Clicking share on an opportunity page copies the link to this page to your clipboard, making it easy to send a low-stakes snapshot of an opportunity to friends or family.  Peerlift gets the added benefit of introducing a new user to Peerlift first, and not an external URL."
+    ></Paragraph>
+
+    <SmallImage
+    image = "./images/laptoppage@2x.png"
+    caption = "After a user clicks share, the link to that opportunity page is copied to clipboard."
+    ></SmallImage>
+
+
     <Title
     text = "Adding content to Peerlift"
     ></Title>
+
+    <Paragraph
+    text = "For Peerlift to work, students need to want to share quality scholarships or programs they know of.  I decided to prototype a simple add scholarship button above the content to validate that students wanted to share. "
+    ></Paragraph>
+
+    <Paragraph
+    text = "For the future, I'll expand this to enable people to directly add their scholarship to the platform, and not only send their scholarship to a database I process.  However, I had to start smaller to move fast on development and ship this on time."
+    ></Paragraph>
+
+
+    <SmallImage
+    image = "./images/add@2x.png"
+    caption = "Users quickly add a scholarship at the top."
+    ></SmallImage>
 
 
 
