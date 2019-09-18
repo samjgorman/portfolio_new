@@ -84,7 +84,7 @@ class App extends Component {
     image = "./images/pink@2x.png"
     tag = "FULL-STACK"
     title = "Peerlift Connect"
-    text = "Building scholarships of the future for 60,000+ users and counting."
+    text = "A human way to discover scholarships and summer programs."
     shade = "255, 109, 150, 0.5"
     color = "#FF6D96"
     link = "/connect"
