@@ -39,8 +39,8 @@ class Connect extends Component {
     ></Header>
 
      <Hero
-     textOne = "Sample text one"
-     textTwo = "Pivoted to a platform to connect college students in need"
+     textOne = "Building a human way to discover scholarships and summer programs. "
+     textTwo = "Going from wireframes to fullstack development."
      image = "./images/pl final.gif"
      color = "#FF6D96"
      ></Hero>
@@ -335,16 +335,50 @@ class Connect extends Component {
     ></Paragraph>
 
 
-
-
     < Divider
-    title = "Learnings"
+    title = "Learnings & Future"
     color = "#1493FF"
     textcolor = "white"
     ></Divider>
 
+    <Title
+    text = "The holy trinity of user-driven products on web are…"
+    tag = "ONE"
+    color = "#EABA04"
+    ></Title>
+
+    <Paragraph
+    text = "Intercom, Fullstory, and Analytics. I use Intercom, a live chat tool, to ask real questions to real users, and then target those questions based off of events. Fullstory is a personal favorite - I can see in detail how users interact with the product in real-time, and quickly identify UI breakpoints. Analytics - either Google Analytics, Mixpanel, or Amplitude - are equally critical for event-tracking and measuring success. I push to release products early to real people so I can use these tools to measure and iterate on how we're performing."
+    ></Paragraph>
+
+    <Title
+    text = "Don't get ready, get started."
+    tag = "TWO"
+    color = "#EABA04"
+    ></Title>
+
+    <Paragraph
+    text = "Yes, I took this from an IDEO makathon I went to. But, it's true. I'm guilty of spending too much time researching before deciding on a technology to use. Vue? React? Angular, for a front-end framework? Ultimately, trying things out for myself lead to a much clearer answer than scouring Medium for two hours."
+    ></Paragraph>
+
+    <Title
+    text = "The future: more features, more users, more fun."
+    tag = "GOALS"
+    color = "#FF6D96"
+    ></Title>
+
+    <Paragraph
+    text = "I'm excited to build more ways to connect with users and enable sharing.  I'm now building out new ways for users to share scholarships, and prototyping what logged-in users could do.  I get to shift gears and work on the marketing side of Peerlift now as well.  This project was challeenging because I had to take charge of every end of the product experience, but it was worth it and I learned a ton."
+    ></Paragraph>
+
+    <Paragraph
+    text = "Thanks for making it this far! 😇  Si hi if this interests you, and always happy to talk more and learn from you!"
+    ></Paragraph>
+
+
     <DividerEnd
         color = "#1493FF"
+        
 
     ></DividerEnd>
 
