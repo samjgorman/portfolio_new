@@ -175,10 +175,32 @@ class Connect extends Component {
     textcolor = "white"
     ></Divider>
 
+    <Title
+    text = "Discovering content"
+    ></Title>
+
+    <Paragraph
+    text = "Before users could add or share content, they needed to be able to easily discover relevant, interesting opportunities for them."
+    ></Paragraph>
+
+    <Paragraph
+    text = "Users like Miguel and and Thalia explained how they often searched for scholarships on the go, or in class.  This drove my mobile-first design for Peerlift.  I designed for ease of use by only including critical information, limiting choice in filters, and crafting a minimalist, inviting aesthetic."
+    ></Paragraph>
+
     <SmallImage
     image = "./images/mobilespread@2x.png"
     caption = "How mobile-users discover, filter and share opportunities with Peerlift."
     ></SmallImage>
+
+    <Title
+    text = "Sharing content with friends"
+    ></Title>
+
+    <Title
+    text = "Adding content to Peerlift"
+    ></Title>
+
+
 
     < Divider
     title = "Shipping a web app."
