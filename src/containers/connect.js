@@ -175,11 +175,18 @@ class Connect extends Component {
     textcolor = "white"
     ></Divider>
 
+    <SmallImage
+    image = "./images/mobilespread@2x.png"
+    caption = "How mobile-users discover, filter and share opportunities with Peerlift."
+    ></SmallImage>
+
     < Divider
     title = "Shipping a web app."
     color = "#1493FF"
     textcolor = "white"
     ></Divider>
+
+   
 
     <Paragraph
     text = "This section gets somewhat technical: I talk about the technical decisions I made and how I actually built the product. However, I'm staying high-level, and won't assume prior knowledge in software. I'm more interested in explaining my process for product-building in this case-study than getting in the weeds of the implementation."
