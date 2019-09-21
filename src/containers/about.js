@@ -160,10 +160,10 @@ const About = ( ) => {
     <Bar/>
     
     <InfoWrapper> 
-        <Info> <b>I'm designing my own major at Stanford, in Interaction Design.</b>Designing a design major is definitely my most meta experience at Stanford to date.  But it's exciting, because I can fuse the creative methodology of design with the hard skills of computer science to make compellingly useful things.  Which is why... </Info>
+        <Info> <b>I'm designing my own major at Stanford, in Interaction Design.</b>  Designing a design major is definitely my most meta experience at Stanford to date.  But it's exciting, because I can fuse the creative methodology of design with the hard skills of computer science to make compellingly useful things.  Which is why... </Info>
         <Info> <b> I believe it’s crazy important to know how to ship my own products with code. </b>  I built Peerlift with React, Express, MongoDB and Node.JS this summer instead of an internship. Was sometimes lost in a hellhole of Medium articles and Youtube tutorials, but I learned how to ship products from making Sketch wireframes to writing post-build scripts.</Info>
-        <Info> <b>I love learning and teaching languages, because they open doors to different ways of thinking.</b> I learned French and German mostly by talking to other people and watching YouTube.  Lots of Youtube.  Also traveled the world from my room on Skype as an online English teacher for three years, and learned that students in Siberia like Marvel comics just as much as I do.  </Info>
-        <Info> <b> My digital life is waaay more organized than my personal one.  </b>  I literally organize my entire working and social life on Notion and Asana.  My friends tell me I should build a productivity tool next because-I-spend-so-much-time-making-lists.</Info>
+        <Info> <b>I love learning and teaching languages, because they open doors to different ways of thinking.</b>  I learned French and German mostly by talking to other people and watching YouTube.  Lots of Youtube.  Also traveled the world from my room on Skype as an online English teacher for three years, and learned that students in Siberia like Marvel comics just as much as I do.  </Info>
+        <Info> <b> My digital life is waaay more organized than my personal one.  </b>  I literally organize my entire working and social life on Notion and Asana.  My friends tell me I should build a productivity tool next because-I-spend-so-much-time-making-lists.</Info>
     </InfoWrapper>
 
     <Bar/>
