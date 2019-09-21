@@ -9,6 +9,8 @@ const Caption = styled.div`
     margin-bottom: 1.5em;
     font-style: italic;
     color: #5F5F5F;
+    margin-left: 20%;
+    margin-right: 20%;
 
 `;
 
