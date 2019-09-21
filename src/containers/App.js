@@ -35,9 +35,8 @@ font-size: 24px;
 
 @media (max-width: 550px) {
   font-size: 18px;
-}
+}`;
 
-`;
 class App extends Component {
   //adding constructor from tut
   constructor(props){
@@ -82,7 +81,7 @@ class App extends Component {
 
     <FeatureRev
     image = "./images/pink@2x.png"
-    tag = "FULL-STACK"
+    tag = "FULL STACK"
     title = "Peerlift Connect"
     text = "A human way to discover scholarships and summer programs."
     shade = "255, 109, 150, 0.5"

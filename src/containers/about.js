@@ -6,6 +6,8 @@ import MyNavbar from "../components/nav";
 import sam from '../images/sam.jpg';
 import Paragraph from "../components/paragraph";
 import Social from "../components/social";
+import { BrowserRouter as Router, Route,Link, Switch } from 'react-router-dom';
+
 
 
 
@@ -74,6 +76,12 @@ const TextWrapper = styled.div`
     padding-right: 5%;
     width: 30em;
 
+    @media (max-width: 1200px) {
+     
+      padding-top: 0em;
+      width: 100%;
+       
+     }
 
     @media (max-width: 800px) {
      padding-bottom: 2em;
@@ -152,7 +160,7 @@ const About = ( ) => {
                  <Social image = "fab fa-github"
                 link = "https://github.com/samjgorman"/>
         </SocialWrapper>
-        <Text>I’m a product designer, entrepreneur, and junior at Stanford who cares about people-powered action.   I get excited when I solve problems by helping people share knowledge or their real selves with others.  It's why I co-founded Peerlift, a human way to search for scholarships, and helped 60,000 users find opportunity.   And it's why I spent time in Paris this year as the first product-designer at an early-stage French startup. New language, new culture, same mission.</Text>
+        <Text>I’m a product designer, entrepreneur, and junior at Stanford <mark>who cares about people-powered action.</mark>   I get excited when I solve problems by helping people share with others.  It's why I co-founded Peerlift, a human way to search for scholarships, and helped 60,000 users find opportunity.   And it's why I spent time in Paris this year as the first product-designer at an early-stage French startup. New language, new culture, same mission.</Text>
       </TextWrapper>
       <ImageWrapper> <img className = "about-img" src ={sam} />   </ImageWrapper>
     </Wrapper>
