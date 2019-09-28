@@ -184,7 +184,7 @@ class Connect extends Component {
     ></Paragraph>
 
     <Paragraph
-    text = "Users like Miguel and and Thalia explained how they often searched for scholarships on the go, or in class.  This drove my mobile-first design for Peerlift.  I designed for ease of use by only including critical information, limiting choice in filters, and crafting a minimalist, inviting aesthetic."
+    text = "Users like Miguel and Thalia explained how they often searched for scholarships on the go, or in class.  This drove my mobile-first design for Peerlift.  I designed for ease of use by only including critical information, limiting choice in filters, and crafting a minimalist, inviting aesthetic."
     ></Paragraph>
 
     <SmallImage
@@ -219,7 +219,7 @@ class Connect extends Component {
     ></Paragraph>
 
     <Paragraph
-    text = "For the future, I'll expand this to enable people to directly add their scholarship to the platform, and not only send their scholarship to a database I process.  However, I had to start smaller to move fast on development and ship this on time."
+    text = "For the future, I'll expand this to enable people to directly add their scholarship to the platform, instead of only send their scholarship to a database I process.  However, I had to start smaller to move fast on development and ship this on time."
     ></Paragraph>
 
 
@@ -251,7 +251,7 @@ class Connect extends Component {
     ></Title>
 
     <Paragraph
-    text = "I used Notion to spec out this project for myself, and kept running to-do's to stay efficient. I always use a tool like Notion or Asana when I've led small product teams in the past, and found it to be equally useful as an individual."
+    text = "I used Notion to spec out this project for myself, and kept running to-do's to stay efficient. I've always used a tool like Notion or Asana when I've led product teams in the past, and found it to be equally useful as an individual."
     ></Paragraph>
 
 
@@ -291,7 +291,7 @@ class Connect extends Component {
     ></Title>
 
     <Paragraph
-    text = "I chose MongoDB Atlas for our database - a noSQL database-in-the-cloud that offers a flexible data structure for changing data. Previously, I had used mySQL for Peerlift, which has rigid data schemes that limited ability to scale content. Using MongoDB meant I could define flexible data schemas with Mongoose, a popular library that enables definition of data schemas directly in my server-side Node.JS code. Faster development, less code - and everyone is happy."
+    text = "I chose MongoDB Atlas for our database -- a noSQL database-in-the-cloud that offers a flexible data structure for changing data. Previously, I had used mySQL for Peerlift, which has rigid data schemes that limited ability to scale content. Using MongoDB meant I could define flexible data schemas with Mongoose, a popular library that enables definition of data schemas directly in my server-side Node.JS code. Faster development, less code - and everyone is happy."
     ></Paragraph>
 
     <Title
@@ -299,7 +299,7 @@ class Connect extends Component {
     ></Title>
 
     <Paragraph
-    text = "Finally, I deployed the production-build of Peerlift to Heroku, a platform-as-a-service that enables rapid deployment. Old Peerlift was hosted on Amazon Web Services (AWS), which offers lots of customization, but is often overly complex to ship an early iteration of a product."
+    text = "Finally, I deployed the production build of Peerlift to Heroku, a platform-as-a-service that enables rapid deployment. Old Peerlift was hosted on Amazon Web Services (AWS), which offers lots of customization, but is often overly complex to ship an early iteration of a product."
     ></Paragraph>
 
     <Title
@@ -348,7 +348,7 @@ class Connect extends Component {
     ></Title>
 
     <Paragraph
-    text = "Intercom, Fullstory, and Analytics. I use Intercom, a live chat tool, to ask real questions to real users, and then target those questions based off of events. Fullstory is a personal favorite - I can see in detail how users interact with the product in real-time, and quickly identify UI breakpoints. Analytics - either Google Analytics, Mixpanel, or Amplitude - are equally critical for event-tracking and measuring success. I push to release products early to real people so I can use these tools to measure and iterate on how we're performing."
+    text = "Intercom, Fullstory, and Analytics. I use Intercom, a live chat tool, to ask real questions to real users, and then target those questions based off of events. Fullstory is a personal favorite -- I can see in detail how users interact with the product in real-time, and quickly identify UI breakpoints. Analytics - either Google Analytics, Mixpanel, or Amplitude - are equally critical for event-tracking and measuring success. I push to release products early to real people so I can use these tools to measure and iterate on how we're performing."
     ></Paragraph>
 
     <Title
@@ -358,7 +358,7 @@ class Connect extends Component {
     ></Title>
 
     <Paragraph
-    text = "Yes, I took this from an IDEO makathon I went to. But, it's true. I'm guilty of spending too much time researching before deciding on a technology to use. Vue? React? Angular, for a front-end framework? Ultimately, trying things out for myself lead to a much clearer answer than scouring Medium for two hours."
+    text = "Yes, I took this from an IDEO makathon I went to. But, it's true. I'm guilty of spending too much time researching before deciding on a technology to use. Vue? React? Angular, for a front-end framework? Ultimately, trying things out for myself leads to a much clearer answer than scouring Medium for two hours."
     ></Paragraph>
 
     <Title
@@ -368,7 +368,7 @@ class Connect extends Component {
     ></Title>
 
     <Paragraph
-    text = "I'm excited to build more ways to connect with users and enable sharing.  I'm now building out new ways for users to share scholarships, and prototyping what logged-in users could do.  I get to shift gears and work on the marketing side of Peerlift now as well.  This project was challeenging because I had to take charge of every end of the product experience, but it was worth it and I learned a ton."
+    text = "I'm excited to build more ways to connect with users and enable sharing.  I'm now building out new ways for users to share scholarships, and prototyping what logged-in users could do.  I get to shift gears and work on the marketing side of Peerlift now as well.  This project was challenging because I had to take charge of every end of the product experience, but it was worth it and I learned a ton."
     ></Paragraph>
 
     <Paragraph
