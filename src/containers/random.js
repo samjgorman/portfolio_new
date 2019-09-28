@@ -170,11 +170,11 @@ class Random extends Component {
     ></Paragraph>
 
     <Paragraph
-    text = "2) Employees acting as administrators for their colleagues aren’t necessary. Instead, enable people to direct contact others they’re interested in connecting with."
+    text = "2) Employees acting as administrators for their colleagues aren’t necessary. Instead, enable people to directly contact others they’re interested in connecting with."
     ></Paragraph>
 
     <Paragraph
-    text = "From their RandomCoffee dashboard, users can directly request an introduction. Before, they had to wait for the next wave of introductions, as specified by an administrator. Colleagues were put in contact with each other every few weeks, as specified by an administrator. However, we received feedback suggesting that enabling a direct introduction as well might positively impact the user experience, so co-workers had the option to instantly get an introduction as soon as they entered the platform."
+    text = "From their RandomCoffee dashboard, users can directly request an introduction. Before, they had to wait for the next wave of introductions several weeks apart, as specified by an administrator.  However, we received feedback suggesting that enabling a direct introduction as well might positively impact the user experience, so co-workers had the option to instantly get an introduction as soon as they entered the platform."
     ></Paragraph>
 
     <FullImage
@@ -245,11 +245,11 @@ class Random extends Component {
      ></Title>
 
     <Paragraph
-    text = "Over eight weeks, I launched and led our user research. Twenty+ user interviews led us to identify a potentially larger opportunity space — and make the transition from helping colleagues meet each other, to helping colleagues understand the hidden talent in their own company. This led to creating a prototype for what RandomCoffee can become in the near future, and new product features that let us test these hypotheses now."
+    text = "Over eight weeks, I launched and led our user research. More than twenty user interviews led us to identify a potentially larger opportunity space — and make the transition from helping colleagues meet each other, to helping colleagues understand the hidden talent in their own company. This led to creating a prototype for what RandomCoffee can become in the near future, and new product features that let us test these hypotheses now."
      > </Paragraph>
 
      <Paragraph
-     text = "Working in French, in the middle of Paris, made my experience a real challenge, but a heck of a ride. I’m beyond grateful that they took a chance on this American who wanted to be more than a tourist for a few months, and I’m excited to see what my friends at RandomCoffee brew up next."
+     text = "Working in French, in the middle of Paris, made my experience challenging, but rewarding.  I'm coming away from these 3 months with more confidence in my ability to lead human-centered interviews with users, and shift from insights to wireframes to code rapidly."
     ></Paragraph>
 
      

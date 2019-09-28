@@ -8,10 +8,10 @@ import { BrowserRouter as Router, Route,Link, Switch } from 'react-router-dom';
 const Wrapper = styled.div`
     display: flex;
     flex-direction: row;
-    margin-top: 2em;
-    margin-bottom: 2em;
     margin-left: 20%;
     margin-right: 20%;
+    padding-top: 8em;
+    padding-bottom: 8em;
     
     @media (max-width: 500px) {
       flex-direction: column;

@@ -58,15 +58,17 @@ class App extends Component {
     <HeroSub> I’m a designer, entrepreneur, and undergrad at Stanford.</HeroSub>
     </HeroContainer>
 
-    <Feature
-    image = "./images/RCfeature@2x.png"
-    tag = "PRODUCT DESIGN"
-    title = "RandomCoffee"
-    text = "Working in a French startup as employee #10, and product designer #1."
-    shade = "0, 206, 161, 0.5"
-    color = "#00cea1"
-    link = "/random"
-    ></Feature>
+    <FeatureRev
+    image = "./images/pink@2x.png"
+    tag = "FULL STACK"
+    title = "Peerlift Connect"
+    text = "A human way to discover scholarships and summer programs."
+    shade = "255, 109, 150, 0.5"
+    color = "#FF6D96"
+    link = "/connect"
+    ></FeatureRev>
+
+
 
     <FeatureRev
     image = "./images/microfeature@2x.png"
@@ -79,15 +81,17 @@ class App extends Component {
     background = "#ffd692"
     ></FeatureRev>
 
-    <FeatureRev
-    image = "./images/pink@2x.png"
-    tag = "FULL STACK"
-    title = "Peerlift Connect"
-    text = "A human way to discover scholarships and summer programs."
-    shade = "255, 109, 150, 0.5"
-    color = "#FF6D96"
-    link = "/connect"
-    ></FeatureRev>
+<Feature
+    image = "./images/RCfeature@2x.png"
+    tag = "PRODUCT DESIGN"
+    title = "RandomCoffee"
+    text = "Designing for authentic connection in the workplace, while based in Paris, France."
+    shade = "0, 206, 161, 0.5"
+    color = "#00cea1"
+    link = "/random"
+    ></Feature>
+
+   
 
     
 

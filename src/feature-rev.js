@@ -9,18 +9,15 @@ import { BrowserRouter as Router, Route,Link, Switch } from 'react-router-dom';
 const Wrapper = styled.div`
     display: flex;
     flex-direction: row;
-    
+    padding-top: 8em;
+    padding-bottom: 8em;
     padding-left: 10%;
     padding-right: 10%;
 
-    margin-top: 4em;
-    margin-bottom: 4em;
     margin-left: 10%;
     margin-right: 10%;
 
     background-color: ${props => props.background};
-    padding-top: 6em;
-    padding-bottom: 6em;
     
     @media (max-width: 500px) {
       flex-direction: column;
@@ -81,7 +78,6 @@ const Text = styled.div`
 const TextWrapper = styled.div`
      display: flex;
      flex-direction: column;
-    padding-bottom: 5em;
     padding-left: 10%;
     width: 30em;
     margin-right: 20%;
