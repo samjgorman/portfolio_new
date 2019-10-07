@@ -3,6 +3,6 @@
     <tspan x="118" y="89">SG</tspan>
   </text>
   <style>
-    @font-face { font-family: foo; src: url(somefont.svg#theFontElementId) format("svg"); }
+    @font-face { font-family: Rubrik-Black; src: url(somefont.svg#theFontElementId) format("svg"); }
   </style>
 </svg>

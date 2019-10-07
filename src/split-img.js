@@ -44,8 +44,7 @@ const Text = styled.div`
     margin-bottom: 1em;
     padding-right: 2em;
     @media (max-width: 800px) {
-      padding-right: 0em;
-       
+      padding-right: 0em;    
      }
    
 

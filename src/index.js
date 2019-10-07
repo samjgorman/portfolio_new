@@ -6,6 +6,8 @@ import About from './containers/about';
 import Case from './containers/casestudy';
 import Random from './containers/random';
 import Connect from './containers/connect';
+import Figma from './containers/figma';
+
 
 
 import * as serviceWorker from './serviceWorker';
@@ -19,6 +21,8 @@ const routing = (
         <Route path="/case" component={Case} />
         <Route path="/random" component={Random} />
         <Route path="/connect" component={Connect} />
+        <Route path="/figma" component={Figma} />
+
 
 
         <Route path="/about" component={About} />

@@ -73,7 +73,7 @@ class App extends Component {
     <FeatureRev
     image = "./images/microfeature@2x.png"
     tag = "UI DESIGN"
-    title = "Peerlift"
+    title = "Microscholarships"
     text = "Building scholarships of the future for 60,000+ users and counting."
     shade = "46, 141, 241, 0.5"
     color = "#2e8df1"
@@ -81,7 +81,7 @@ class App extends Component {
     background = "#ffd692"
     ></FeatureRev>
 
-<Feature
+    <Feature
     image = "./images/RCfeature@2x.png"
     tag = "PRODUCT DESIGN"
     title = "RandomCoffee"
@@ -91,11 +91,19 @@ class App extends Component {
     link = "/random"
     ></Feature>
 
+    <Feature
+    image = "./images/figma@2x.png"
+    tag = "UI DESIGN"
+    title = "Figma Plugins"
+    text = "A redesign of the popular design software for Kleiner Perkins Fellows."
+    shade = "85,81,255, 0.5"
+    color = "#5551FF"
+    link = "/figma"
+    ></Feature>
+
    
 
-    
-
-
+  
     <Footer/>
 
     

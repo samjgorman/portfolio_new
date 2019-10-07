@@ -34,11 +34,10 @@ const CaseText= styled.div`
 
 const Button = ( {text, color, shade, link} ) => {
   return(
-    <Link to = {link} > 
+    
     <CaseButton rgbacolor = {shade} color = {color}>
         <CaseText>{text}</CaseText>
     </CaseButton>
-    </Link>
   )
 }
 
