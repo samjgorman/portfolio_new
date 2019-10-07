@@ -21,7 +21,7 @@ const routing = (
         <Route path="/case" component={Case} />
         <Route path="/random" component={Random} />
         <Route path="/connect" component={Connect} />
-        <Route path="/figma" component={Figma} />
+        <Route path="/figma-kp" component={Figma} />
 
 
 

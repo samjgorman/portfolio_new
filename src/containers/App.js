@@ -98,7 +98,7 @@ class App extends Component {
     text = "A redesign of the popular design software for Kleiner Perkins Fellows."
     shade = "85,81,255, 0.5"
     color = "#5551FF"
-    link = "/figma"
+    link = "/figma-kp"
     ></Feature>
 
    
