@@ -80,16 +80,12 @@ class Figma extends Component {
     ></Paragraph>
 
     <Paragraph
-    text = "When Figma released plugins this August, 2019, I got excited."
+    text = "When Figma released plugins this August, 2019, I got excited.  Compared to the mature plugin community on Sketch, Figma was a blank slate."
     ></Paragraph>
 
-
-    <Title
-    tag = "THE PROBLEM"
-    color = "#1bc47d"
-    text = "It's challenging to find the right Figma plugin for the right use case, and the plugin creation flow is unclear."
-    ></Title>
-
+    <Paragraph
+    text = " I chose this challenge because plugins are an applied definition of community-- people care enough about a product to extend what's possibile within it.  I care about starting digital communities in the products I work on, and this project felt like a fit.  As a designer and Figma user, I knew somewhat where to start (yay!, but kicked off with user research to understand who I was making for. "
+    ></Paragraph>
 
     <Title
     tag = "USER RESEARCH"
