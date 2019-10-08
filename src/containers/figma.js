@@ -54,7 +54,7 @@ class Figma extends Component {
 
     <Title
     text = "Duration"
-    tag = "August 2019"
+    tag = "October 2019"
     color = "#1bc47d"
     ></Title>
 
@@ -122,7 +122,7 @@ class Figma extends Component {
      ></Paragraph>
 
      <Divider
-        title = "Enabling exploration on Plugins home"
+        title = "Inviting exploration on Plugins home"
         color = "#5551FF"
         textcolor = "white"
      ></Divider>
@@ -150,8 +150,25 @@ class Figma extends Component {
 
     <SmallImage
       image = "./images/figma-two.gif"
+      caption = "The full search flow."
+     ></SmallImage>
+
+
+  <SmallImage
+      image = "./images/figmasearch1@2x.png"
+      caption = "Users are prompted to choose from categories when entering search."
+     ></SmallImage>
+
+  <SmallImage
+      image = "./images/figmasearch2@2x.png"
+      caption = "Context-driven search lets users search by problem or idea, not just plugin name."
+     ></SmallImage>
+
+  <SmallImage
+      image = "./images/figmasearch3@2x.png"
       caption = "The full plugin home page."
      ></SmallImage>
+
 
 
     <Divider
