@@ -43,7 +43,7 @@ class Figma extends Component {
      <Hero
      textOne = "Crafting a redesign that makes discovery and creation of Figma Plugins accessible. "
      textTwo = "Extending the power of plugin creation to designers on Figma."
-     image = "./images/test prod@2x.png"
+     image = "./images/figma-two.gif"
      color = "black"
      ></Hero>
 
@@ -143,9 +143,16 @@ class Figma extends Component {
      ></Divider>
 
 
+
     <SmallImage
       image = "./images/shalinsad@2x.png"
      ></SmallImage>
+
+    <SmallImage
+      image = "./images/figma-two.gif"
+      caption = "The full plugin home page."
+     ></SmallImage>
+
 
     <Divider
         title = "Putting creators first: a source of truth for plugin development "
@@ -157,6 +164,11 @@ class Figma extends Component {
     <SmallImage
       image = "./images/michellesad@2x.png"
      ></SmallImage>
+
+  <SmallImage
+      image = "./images/plugin.gif"
+     ></SmallImage>
+
 
     <Quote
     text = "If you can build a website, you should be able to make a plugin."
