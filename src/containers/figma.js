@@ -131,6 +131,16 @@ class Figma extends Component {
       image = "./images/davidsad@2x.png"
      ></SmallImage>
 
+    <Paragraph
+     text ="When I interviewed a fellow designer on how he uses Figma, he told me the following on how he first experienced plugins."
+     ></Paragraph>
+
+     <Quote
+     text = "''The first thing I did was search on Google for the top plugins I should download.''"
+     color ="#1bc47d"
+
+     ></Quote>
+
     <SmallImage
       image = "./images/figma-home@2x.png"
       caption = "The full plugin home page."
@@ -143,15 +153,32 @@ class Figma extends Component {
      ></Divider>
 
 
-
     <SmallImage
       image = "./images/shalinsad@2x.png"
      ></SmallImage>
+
+    <Paragraph
+     text = "Users like Shalin are used to searching for what they need, whether it's on Google or Stack Overflow.  He needed a fast experience to search by the issue he was experiencing or the idea he had.  "
+     ></Paragraph>
+
+    <Paragraph
+    text = "In the existing Figma UI, search is not accessible on the plugin home page, and users can only search in the ''Browse All'' section by the plugin title. "
+     ></Paragraph>
+
+    <Paragraph
+    text = "I added search to Plugin Home, and redeseigned the search flow.  A user now never lands on a ''Browse All'' page, and rather can be taken to a category specific page, or search for an interest or problem of theirs.  Check out the flow below. "
+     ></Paragraph>
+
 
     <SmallImage
       image = "./images/figma-two.gif"
       caption = "The full search flow."
      ></SmallImage>
+
+
+    <Paragraph
+    text = "I decided to prompt users with top categories when opening search, which transitions to relevant plugin results once a user begins to type their query."
+     ></Paragraph>
 
 
   <SmallImage
@@ -166,7 +193,7 @@ class Figma extends Component {
 
   <SmallImage
       image = "./images/figmasearch3@2x.png"
-      caption = "The full plugin home page."
+      caption = "Results page for a search query."
      ></SmallImage>
 
 
@@ -182,15 +209,56 @@ class Figma extends Component {
       image = "./images/michellesad@2x.png"
      ></SmallImage>
 
-  <SmallImage
-      image = "./images/plugin.gif"
-     ></SmallImage>
 
-
+    <Paragraph
+    text = "On Figma's product blog, the team discussed their goal of making plugin creation more accessible to designers.  Their web-based API helps with that-- in fact, Figma stated the following as a core product principle for their design process."
+    ></Paragraph>
     <Quote
     text = "If you can build a website, you should be able to make a plugin."
     color ="#1bc47d"
     ></Quote>
+
+  <Paragraph
+  text = "The painpoint I observed was that information on creating a plugin was decentralized across 3-4 channels.  "
+    ></Paragraph>
+
+  <SmallImage
+      image = "./images/nosource@2x.png"
+     ></SmallImage>
+
+  <Paragraph
+    text = "This made it difficult for designers like Michelle to know that plugins were crafted with designers in mind, and that this wasn't an activity only reserved for hardcore engineers or hackers."
+    ></Paragraph>
+
+  <Title
+    text = "With this knowledge, I centralized creation resources on Figma with the following principles."
+  ></Title>
+
+<Paragraph
+  text = "1.  Spotlight examples of top Figma plugins, without needing to leave the page."
+  ></Paragraph>
+
+<Paragraph
+  text = "2.  Showcase the stories of designers who built successful plugins from diverse backgrounds, to encourage designers to built plugins too.  "
+  ></Paragraph>
+
+<Paragraph
+  text = "3.  Create a community around Figma plugins and help creators help each other."
+  ></Paragraph>
+
+    <Title
+      text = "Introducing Figma Creator Hub"
+    ></Title>
+
+
+
+
+    <SmallImage
+      image = "./images/plugin.gif"
+     ></SmallImage>
+
+
+   
 
 
      <SmallImage
