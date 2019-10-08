@@ -132,14 +132,26 @@ class Figma extends Component {
      ></SmallImage>
 
     <Paragraph
-     text ="When I interviewed a fellow designer on how he uses Figma, he told me the following on how he first experienced plugins."
+     text ="When I interviewed a designer friend on how he uses Figma, this is what he told me."
      ></Paragraph>
 
      <Quote
      text = "''The first thing I did was search on Google for the top plugins I should download.''"
      color ="#1bc47d"
-
      ></Quote>
+
+    <Paragraph
+    text = "As a human, I love when the information given to me is organized.  But in the current UI, all I have for context on how a plugin can help me, is the number of installs and name.   "
+     ></Paragraph>
+
+    <Paragraph
+    text = "That makes it tricky if I'm a user like Shalin, and I just want to explore how plugins could help me, with no particular problem in mind.  With no context or grouping, I'm in trouble."
+     ></Paragraph>
+
+    <Paragraph
+    text = "That inspired the concept below for Plugins home-- adding groupings of top plugins in a visual UI."
+     ></Paragraph>
+
 
     <SmallImage
       image = "./images/figma-home@2x.png"
@@ -166,7 +178,7 @@ class Figma extends Component {
      ></Paragraph>
 
     <Paragraph
-    text = "I added search to Plugin Home, and redeseigned the search flow.  A user now never lands on a ''Browse All'' page, and rather can be taken to a category specific page, or search for an interest or problem of theirs.  Check out the flow below. "
+    text = "I added search to Plugin Home, and redesigned the search flow.  A user now never lands on a ''Browse All'' page, and rather can be taken to a category specific page, or search for an interest or problem of theirs.  Check out the flow below. "
      ></Paragraph>
 
 
@@ -228,7 +240,7 @@ class Figma extends Component {
 
   <Paragraph
     text = "This made it difficult for designers like Michelle to know that plugins were crafted with designers in mind, and that this wasn't an activity only reserved for hardcore engineers or hackers."
-    ></Paragraph>
+  ></Paragraph>
 
   <Title
     text = "With this knowledge, I centralized creation resources on Figma with the following principles."
@@ -250,20 +262,13 @@ class Figma extends Component {
       text = "Introducing Figma Creator Hub"
     ></Title>
 
-
-
-
     <SmallImage
       image = "./images/plugin.gif"
      ></SmallImage>
 
-
-   
-
-
-     <SmallImage
-      image = "./images/test prod@2x.png"
-      caption = "Discover people who match the skills you’re searching for."
+    <SmallImage
+      image = "./images/pluginhub@2x.png"
+      caption = "A static view of the Creator Hub"
      ></SmallImage>
 
     <SmallImage
