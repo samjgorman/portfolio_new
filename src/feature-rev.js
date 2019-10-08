@@ -9,8 +9,8 @@ import { BrowserRouter as Router, Route,Link, Switch } from 'react-router-dom';
 const Wrapper = styled.div`
     display: flex;
     flex-direction: row;
-    padding-top: 8em;
-    padding-bottom: 8em;
+    padding-top: 4em;
+    padding-bottom: 4em;
     padding-left: 10%;
     padding-right: 10%;
 
@@ -70,7 +70,6 @@ const Text = styled.div`
      @media (max-width:800px) {
         padding-right: 0em;
         font-size: 16px;
-  
         width: 100%;
        }
 `;
@@ -84,8 +83,8 @@ const TextWrapper = styled.div`
 
     @media (max-width: 800px) {
      padding-bottom: 2em;
-     padding-top: 4em;
      padding-right: 0em;
+     padding-top: 4em;
      width: 100%;
       
     }

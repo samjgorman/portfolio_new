@@ -7,6 +7,8 @@ import MyNavbar from "../components/nav";
 import Footer from "../footer";
 import Feature from "../feature";
 import FeatureRev from "../feature-rev";
+import FeatureBk from "../feature-bk";
+
 
 
 import styled, { css } from 'styled-components'
@@ -70,7 +72,7 @@ class App extends Component {
 
 
 
-    <FeatureRev
+    <FeatureBk
     image = "./images/microfeature@2x.png"
     tag = "UI DESIGN"
     title = "Microscholarships"
@@ -79,7 +81,7 @@ class App extends Component {
     color = "#2e8df1"
     link = "/case"
     background = "#ffd692"
-    ></FeatureRev>
+    ></FeatureBk>
 
     <Feature
     image = "./images/RCfeature@2x.png"
