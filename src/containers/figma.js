@@ -84,7 +84,7 @@ class Figma extends Component {
     ></Paragraph>
 
     <Paragraph
-    text = " I chose this challenge because plugins are an applied definition of community-- people care enough about a product to extend what's possibile within it.  I care about starting digital communities in the products I work on, and this project felt like a fit.  As a designer and Figma user, I knew somewhat where to start (yay!, but kicked off with user research to understand who I was making for. "
+    text = " I chose this challenge because plugins are an applied definition of community-- people care enough about a product to extend what's possibile within it.  I care about starting digital communities in the products I work on, and this project felt like a fit.  As a designer and Figma user, I knew somewhat where to start (yay!), but kicked off with user research to understand who I was making for. "
     ></Paragraph>
 
     <Title
@@ -166,11 +166,11 @@ class Figma extends Component {
      ></SmallImage>
 
     <Paragraph
-     text = "Users like Shalin are used to searching for what they need, whether it's on Google or Stack Overflow.  He needed a fast experience to search by the issue he was experiencing or the idea he had.  "
+     text = "Users like Shalin are used to searching for what they need, whether it's on Google or Stack Overflow.  He needs a fast way to search for the issue he's facing or the idea he has.  "
      ></Paragraph>
 
     <Paragraph
-    text = "In the existing Figma UI, search is not accessible on the plugin home page, and users can only search in the ''Browse All'' section by the plugin title. "
+    text = "In the existing Figma UI, search isn't accessible on the plugin home page, and users can only search in the ''Browse All'' section by the plugin title. "
      ></Paragraph>
 
     <Paragraph
@@ -185,7 +185,7 @@ class Figma extends Component {
 
 
     <Paragraph
-    text = "I decided to prompt users with top categories when opening search, which transitions to relevant plugin results once a user begins to type their query."
+    text = "I show users top categories when they open the search bar, which transitions to relevant plugin results once a user starts typing."
      ></Paragraph>
 
 
@@ -239,7 +239,7 @@ class Figma extends Component {
   ></Paragraph>
 
   <Title
-    text = "With this knowledge, I centralized creation resources on Figma with the following principles."
+    text = "So, I centralized resources for plugins creators on Figma, with a few rules."
   ></Title>
 
 <Paragraph

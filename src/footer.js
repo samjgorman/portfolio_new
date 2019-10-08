@@ -28,7 +28,9 @@ const Footer = ( {title, color} ) => {
                 <div className = "section-two-title">Case studies:</div>
                     <div className = "section-two-study" >🇫🇷   <Link className = "footerLink" to = "/random"> Product design with <b>RandomCoffee </b> </Link></div>
                     <div className = "section-two-study">🤖   <Link className = "footerLink"to = "/connect"> Full stack with <b> Peerlift </b> </Link></div>
-                    <div className = "section-two-study">🎨   <Link className = "footerLink" to = "/case"> UI design with <b> Peerlift </b></Link> </div>
+                    <div className = "section-two-study">💸   <Link className = "footerLink" to = "/case"> UI design with <b> Microscholarships </b></Link> </div>
+                    <div className = "section-two-study">🎨   <Link className = "footerLink" to = "/figma-kp"> More UI design with <b> Figma Plugins </b></Link> </div>
+
             </div>
 
         </div>
