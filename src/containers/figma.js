@@ -84,7 +84,7 @@ class Figma extends Component {
     ></Paragraph>
 
     <Paragraph
-    text = " I chose this challenge because plugins are an applied definition of community-- people care enough about a product to extend what's possibile within it.  I care about starting digital communities in the products I work on, and this project felt like a fit.  As a designer and Figma user, I knew somewhat where to start (yay!), but kicked off with user research to understand who I was making for. "
+    text = " I chose this challenge because plugins are an applied definition of community-- people care enough about a product to extend what's possible within it.  I care about starting digital communities in the products I work on, and this project felt like a fit.  As a designer and Figma user, I knew somewhat where to start (yay!), but kicked off with user research to understand who I was making for. "
     ></Paragraph>
 
     <Title
