@@ -260,16 +260,12 @@ class Figma extends Component {
 
     <SmallImage
       image = "./images/plugin.gif"
+      caption = "The full page animated"
      ></SmallImage>
 
     <SmallImage
       image = "./images/pluginhub@2x.png"
       caption = "A static view of the Creator Hub"
-     ></SmallImage>
-
-    <SmallImage
-      image = "./images/figma-sketches@2x.png"
-      caption = "Bad handwriting or folksy charm?."
      ></SmallImage>
 
     <Divider
@@ -314,6 +310,31 @@ class Figma extends Component {
     <DividerEnd
         color = "#5551FF"
      ></DividerEnd>
+
+     <Title
+     text = "What's next?"
+     ></Title>
+
+    <Paragraph
+    text = "I would love to...make this real?  I didn't want to reinvent the wheel with a whole new visual design, and focused instead on the user experience.  The changes I proposed don't require large up-front technical investments to test, and I'd love to get feedback from the Figma Design Team on how excited they would be to keep iterating on this.   "
+    >
+     </Paragraph>
+
+    <Paragraph
+    text = "Overall, this was an exciting project for a product I care about (design tools!) in a problem space that I care about (creating community through plugins!)"
+    >
+    </Paragraph>
+
+    <Paragraph
+    text = "Thanks for makin' it this far!  Feel free to say hi at sgorman@stanford.edu with any feedback, ideas, or questions. 🙂"
+    >
+    </Paragraph>
+
+
+    <Paragraph
+    text
+    >
+     </Paragraph>
 
 
 
