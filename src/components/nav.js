@@ -25,8 +25,8 @@ class MyNavbar extends React.Component{
 
               <Link to="/" className = "nav-link" id = "logo-link"> <div className = "logo">SG</div> </Link>
               
-              <div className = "nav-text" id = "about"><Link className = "nav-link" to="/about"> About</Link></div>
-              <div className = "nav-text" id = "work"> <Link className = "nav-link" to="/">Work</Link> </div>
+              <div className = "nav-text" id = "work"><Link className = "nav-link" to="/"> Work</Link></div>
+              <div className = "nav-text" id = "about"> <Link className = "nav-link" to="/about">About</Link> </div>
 
 
           </div>
