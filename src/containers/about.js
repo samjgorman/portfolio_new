@@ -160,7 +160,7 @@ const About = ( ) => {
                  <Social image = "fab fa-github"
                 link = "https://github.com/samjgorman"/>
         </SocialWrapper>
-        <Text>I’m a product designer, entrepreneur, and junior at Stanford <mark>who cares about people-powered action.</mark>   I get excited when I solve problems by helping people share with others.  It's why I co-founded Peerlift, a human way to search for scholarships, and helped 60,000 users find opportunity.   And it's why I spent time in Paris this year as the first product-designer at an early-stage French startup. New language, new culture, same mission.</Text>
+        <Text>I’m a product designer, entrepreneur, and junior at Stanford <mark>who cares about people-powered action.</mark>   I get excited when I solve problems by helping people share with others.  It's why I co-founded Peerlift, a human way to search for scholarships, and helped 60,000 users find opportunities.   And it's why I spent time in Paris this year as the first product-designer at an early-stage French startup. New language, new culture, same mission.</Text>
       </TextWrapper>
       <ImageWrapper> <img className = "about-img" src ={sam} />   </ImageWrapper>
     </Wrapper>

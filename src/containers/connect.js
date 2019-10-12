@@ -100,7 +100,7 @@ class Connect extends Component {
     ></Paragraph>
 
     <Paragraph
-    text = "Thalia is motivated for college, but wasn't sure where to start with the college process. Wants to apply to scholarships but not quite sure how to start."
+    text = "Thalia is motivated for college and wants to apply for scholarships but is not quite sure where to start."
     ></Paragraph>
 
     <Divider
@@ -372,7 +372,7 @@ class Connect extends Component {
     ></Paragraph>
 
     <Paragraph
-    text = "Thanks for making it this far! 😇  Si hi if this interests you, and always happy to talk more and learn from you!"
+    text = "Thanks for making it this far! 😇  Say hi if this interests you, and always happy to talk more and learn from you!"
     ></Paragraph>
 
 
