@@ -4,6 +4,9 @@ import './footer.css';
 import Social from "./components/social";
 import { Link, BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
+const Contact = styled.div`
+  
+`;
 
 
 const Footer = ( {title, color} ) => {
@@ -21,6 +24,7 @@ const Footer = ( {title, color} ) => {
                 link = "https://www.linkedin.com/in/gormansam/"/>
                  <Social image = "fab fa-github"
                 link = "https://github.com/samjgorman"/>
+                <Contact> 📬 sgorman at stanford.edu</Contact>
             </div>
 
 
