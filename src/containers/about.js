@@ -100,13 +100,15 @@ flex-shrink: 0;
 
 const Bar = styled.div`
 border-top-style: solid;
-border-top-color:#FF3560;
-border-top-width: 2em;
-margin-top: 6em;
-margin-bottom: 6em;
+border-top-color:#E3E3E3;
+border-top-width: 0.8px;
+margin-left: 20%;
+margin-right: 20%;
+
 `;
 
 const InfoWrapper = styled.div`
+margin-top: 2em;
 margin-left: 20%;
 margin-right: 20%;
 font-family: Open Sans;
@@ -174,7 +176,6 @@ const About = ( ) => {
         <Info> <b> My digital life is waaay more organized than my personal one.  </b>  I literally organize my entire working and social life on Notion and Asana.  My friends tell me I should build a productivity tool next because-I-spend-so-much-time-making-lists.</Info>
     </InfoWrapper>
 
-    <Bar/>
 
     <Footer/>
     </React.Fragment>
