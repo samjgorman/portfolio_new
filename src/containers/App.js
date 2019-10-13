@@ -91,7 +91,7 @@ class App extends Component {
     background = "#FCEADE"
     ></FeatureBk>
 
-    <Feature
+    <FeatureRev
     image = "./images/microfeature@2x.png"
     tag = "UI DESIGN"
     title = "Microscholarships"
@@ -100,7 +100,7 @@ class App extends Component {
     color = "#2e8df1"
     link = "/case"
 
-    ></Feature>
+    ></FeatureRev>
 
 
     <Feature
