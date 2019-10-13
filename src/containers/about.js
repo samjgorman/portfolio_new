@@ -77,7 +77,6 @@ const TextWrapper = styled.div`
     width: 30em;
 
     @media (max-width: 1200px) {
-     
       padding-top: 0em;
       width: 100%;
        

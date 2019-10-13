@@ -15,8 +15,15 @@ import styled, { css } from 'styled-components'
 
 
 const HeroContainer = styled.div`
-text-align: center;
 padding: 12%;
+padding-left: 20%;
+padding-right: 20%;
+
+@media (max-width: 550px) {
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
 `;
 
 const HeroTitle = styled.div`
@@ -65,7 +72,7 @@ class App extends Component {
     <MyNavbar/>
     <HeroContainer> 
     <HeroTitle>Hi!  I’m Sam.</HeroTitle>
-    <HeroSub> I’m a designer, entrepreneur, and undergrad at Stanford.</HeroSub>
+    <HeroSub> I’m a designer, entrepreneur, and undergrad at Stanford, building for community.</HeroSub>
     </HeroContainer>
 
     <Feature
