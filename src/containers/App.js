@@ -37,6 +37,7 @@ font-size: 24px;
 
 @media (max-width: 550px) {
   font-size: 18px;
+  line-height:2em;
 }`;
 
 const Background= styled.div`

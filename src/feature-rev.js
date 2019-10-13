@@ -11,11 +11,10 @@ const Wrapper = styled.div`
     flex-direction: row;
     padding-top: 4em;
     padding-bottom: 4em;
-    padding-left: 10%;
-    padding-right: 10%;
+    
 
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 20%;
+    margin-right: 20%;
 
     background-color: ${props => props.background};
     
@@ -86,13 +85,20 @@ const TextWrapper = styled.div`
      padding-right: 0em;
      padding-top: 4em;
      width: 100%;
+     padding-left: 0;
+
       
     }
 `;
 
 const ImageWrapper = styled.div`
-
 flex-shrink: 0;
+
+@media (max-width: 800px) {
+    width: 100%;
+
+     
+   }
 `;
 
 const Tag = styled.div`
