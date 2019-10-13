@@ -105,6 +105,11 @@ border-top-width: 0.8px;
 margin-left: 20%;
 margin-right: 20%;
 
+@media (max-width: 500px) {
+  border-top-width: 1px;
+     
+   }
+
 `;
 
 const InfoWrapper = styled.div`
