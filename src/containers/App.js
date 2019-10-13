@@ -24,6 +24,12 @@ padding-right: 20%;
   padding-right: 2em;
 }
 
+@media (max-width: 1000px) {
+  padding-left: 10%;
+padding-right: 10%;
+}
+
+
 `;
 
 const HeroTitle = styled.div`
@@ -41,6 +47,8 @@ color: #f03f6d;
 const HeroSub= styled.div`
 font-family: Oxygen;
 font-size: 24px;
+line-height:2em;
+
 
 @media (max-width: 550px) {
   font-size: 18px;

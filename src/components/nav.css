@@ -54,13 +54,13 @@
     
 
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 1000px){
 
 
     .Navbar{
         z-index: 12;
-        padding-left: 2em;
-        padding-right: 2em;
+        padding-left: 10%;
+        padding-right: 10%;
     }
    
 
@@ -70,16 +70,8 @@
 
     }
 
-    .logo{
-
-    }
-
-    #logo-link{
-        margin-left: 2em;
-    }
-
     #work{
-        margin-left: 40%;
+        margin-left: 50%;
     }
 
     
@@ -88,11 +80,17 @@
 
 @media screen and (max-width: 500px){
 
-
-   
     #work{
         margin-left: 30%;
     }
+
+    
+}
+
+@media screen and (max-width: 1000px){
+
+
+   
 
     
 }

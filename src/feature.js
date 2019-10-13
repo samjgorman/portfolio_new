@@ -25,6 +25,11 @@ const Wrapper = styled.div`
     @media (max-width: 800px) {
         flex-direction: column;
     }
+
+    @media (max-width: 1000px) {
+      margin-left: 10%;
+      margin-right: 10%;
+    }
 `;
 
 const CaseTitle = styled.div`

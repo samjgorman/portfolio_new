@@ -25,12 +25,19 @@ const Wrapper = styled.div`
       flex-direction: column;
       margin-right: 2em;
       margin-left: 2em;
+      padding-bottom: 2em;
+      padding-top: 2em;
       
     }
 
     @media (max-width: 800px) {
         flex-direction: column;
     }
+
+    @media (max-width: 1000px) {
+        margin-left: 10%;
+        margin-right: 10%;
+      }
 `;
 
 const CaseTitle = styled.div`
