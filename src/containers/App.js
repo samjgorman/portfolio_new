@@ -8,10 +8,9 @@ import Footer from "../footer";
 import Feature from "../feature";
 import FeatureRev from "../feature-rev";
 import FeatureBk from "../feature-bk";
-
-
-
 import styled, { css } from 'styled-components'
+
+
 
 
 const HeroContainer = styled.div`
