@@ -115,6 +115,7 @@ const InfoWrapper = styled.div`
 margin-top: 2em;
 margin-left: 20%;
 margin-right: 20%;
+margin-bottom: 2em;
 font-family: Open Sans;
 line-height: 34px;
 
