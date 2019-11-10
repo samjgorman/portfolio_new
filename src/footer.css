@@ -1,3 +1,17 @@
+a{
+    text-decoration:none; 
+    cursor:pointer;  
+}
+
+a:visited{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: #f03f6d
+}
+
 .footer-wrapper{
     border-top-style: solid;
     border-top-width: 0.3em;
@@ -102,3 +116,4 @@
     }
     
 }
+

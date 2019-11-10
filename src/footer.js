@@ -3,6 +3,8 @@ import styled, { css } from 'styled-components'
 import './footer.css';
 import Social from "./components/social";
 import { Link, BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import Resume from "./images/resume.pdf"
+
 
 const Contact = styled.div`
   
@@ -24,7 +26,10 @@ const Footer = ( {title, color} ) => {
                 link = "https://www.linkedin.com/in/gormansam/"/>
                  <Social image = "fab fa-github"
                 link = "https://github.com/samjgorman"/>
-                <Contact> 📬 sgorman at stanford.edu</Contact>
+                <Contact> 📬 Sgorman at stanford.edu</Contact>
+                <a href = {Resume} target = "_blank">📝 Résumé</a>
+
+
             </div>
 
 
@@ -38,7 +43,7 @@ const Footer = ( {title, color} ) => {
             </div>
 
         </div>
-        <div className = "footer-text">Designed + coded by Sam with ❤️ in React</div>
+        <div className = "footer-text">Built by Sam with ❤️ in React</div>
     </div>
   
   )
