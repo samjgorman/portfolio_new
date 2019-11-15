@@ -118,6 +118,7 @@ margin-right: 20%;
 margin-bottom: 2em;
 font-family: Open Sans;
 line-height: 34px;
+font-size: 17px;
 
 
 
@@ -167,7 +168,9 @@ const About = ( ) => {
                  <Social image = "fab fa-github"
                 link = "https://github.com/samjgorman"/>
         </SocialWrapper>
-        <Text>I’m a product designer, entrepreneur, and junior at Stanford <mark>who cares about people-powered action.</mark>   I get excited when I solve problems by helping people share with others.  It's why I co-founded Peerlift, a human way to search for scholarships, and helped 60,000 users find opportunities.   And it's why I spent time in Paris this year as the first product-designer at an early-stage French startup. New language, new culture, same mission.</Text>
+          <Text>I’m a product designer, entrepreneur, and junior studying at Stanford and thinking about ideas that mobilize and empower groups.
+
+I’m from Los Angeles, but spend more time in the Bay Area now.   I founded Peerlift, a really fast and intuitive way to find scholarships, and helped 60,000 user find opportunities.   Most recently,  I spent time in Paris as the first product designer at an early stage French startup, where I built their second product expansion.</Text>
       </TextWrapper>
       <ImageWrapper> <img className = "about-img" src ={sam} />   </ImageWrapper>
     </Wrapper>
@@ -175,10 +178,10 @@ const About = ( ) => {
     <Bar/>
     
     <InfoWrapper> 
-        <Info> <b>I'm designing my own major at Stanford, in Interaction Design.</b>  Designing a design major is definitely my most meta experience at Stanford to date.  But it's exciting, because I can fuse the creative methodology of design with the hard skills of computer science to make compellingly useful things.  Which is why... </Info>
-        <Info> <b> I believe it’s crazy important to know how to ship my own products with code. </b>  I built Peerlift with React, Express, MongoDB and Node.JS this summer instead of an internship. Was sometimes lost in a hellhole of Medium articles and Youtube tutorials, but I learned how to ship products from making Sketch wireframes to writing post-build scripts.</Info>
-        <Info> <b>I love learning and teaching languages, because they open doors to different ways of thinking.</b>  I learned French and German mostly by talking to other people and watching YouTube.  Lots of Youtube.  Also traveled the world from my room on Skype as an online English teacher for three years, and learned that students in Siberia like Marvel comics just as much as I do.  </Info>
-        <Info> <b> My digital life is waaay more organized than my personal one.  </b>  I literally organize my entire working and social life on Notion and Asana.  My friends tell me I should build a productivity tool next because-I-spend-so-much-time-making-lists.</Info>
+        <Info>I created my own major within the School of Engineering to study product design and computer science.   I’m calling it Interaction Design, because  I focus on understanding how we craft digital experiences from human-centered needfinding to production code.</Info>
+        <Info> I like to block out chunks of time to start software projects, practice my French & German, experiment with mediums to bring people together, write Medium drafts that I don’t publish,  and pursue what I’m most curious about.  As of late, I’ve been thinking a lot about the incentive schemes behind open-source software development, and more broadly, how to engineer a digital community that solves problems together.</Info>
+        <Info> I enjoy writing code to turn wireframes into reality, and  I’ve learned how important technical fluency is in a product role through experience building fullstack apps with technologies like React and Vue.  As a factor of all that,  I’m super interested in how design and engineering might converge in the near future. </Info>
+        <Info> If you find any of this interesting, would love to chat with you more. </Info>
     </InfoWrapper>
 
 
