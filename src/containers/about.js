@@ -115,7 +115,7 @@ const InfoWrapper = styled.div`
 margin-top: 2em;
 margin-left: 20%;
 margin-right: 20%;
-margin-bottom: 2em;
+margin-bottom: 4em;
 font-family: Open Sans;
 line-height: 34px;
 font-size: 17px;
@@ -168,7 +168,7 @@ const About = ( ) => {
                  <Social image = "fab fa-github"
                 link = "https://github.com/samjgorman"/>
         </SocialWrapper>
-          <Text>I’m a product designer, entrepreneur, and junior studying at Stanford and thinking about ideas that mobilize and empower groups.
+          <Text>I’m a product designer, entrepreneur, and junior studying at Stanford, and thinking about ideas that mobilize and empower groups.
 
 I’m from Los Angeles, but spend more time in the Bay Area now.   I founded Peerlift, a really fast and intuitive way to find scholarships, and helped 60,000 user find opportunities.   Most recently,  I spent time in Paris as the first product designer at an early stage French startup, where I built their second product expansion.</Text>
       </TextWrapper>
@@ -180,8 +180,8 @@ I’m from Los Angeles, but spend more time in the Bay Area now.   I founded Pee
     <InfoWrapper> 
         <Info>I created my own major within the School of Engineering to study product design and computer science.   I’m calling it Interaction Design, because  I focus on understanding how we craft digital experiences from human-centered needfinding to production code.</Info>
         <Info> I like to block out chunks of time to start software projects, practice my French & German, experiment with mediums to bring people together, write Medium drafts that I don’t publish,  and pursue what I’m most curious about.  As of late, I’ve been thinking a lot about the incentive schemes behind open-source software development, and more broadly, how to engineer a digital community that solves problems together.</Info>
-        <Info> I enjoy writing code to turn wireframes into reality, and  I’ve learned how important technical fluency is in a product role through experience building fullstack apps with technologies like React and Vue.  As a factor of all that,  I’m super interested in how design and engineering might converge in the near future. </Info>
-        <Info> If you find any of this interesting, would love to chat with you more. </Info>
+        <Info> I’ve grown passionate about shipping my own products in code, mostly through experience building fullstack apps with technologies like React and Vue.  As a factor of all that,  I’m super interested in how design and engineering will converge in the near future.</Info>
+        <Info> If you find any of this interesting, or want to chat about crafting communities, engineering productivity, or the future of travel ( or maybe just want to say hi!),  drop a line to  sgorman at stanford.edu and let’s talk.  </Info>
     </InfoWrapper>
 
 

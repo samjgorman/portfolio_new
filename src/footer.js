@@ -7,7 +7,7 @@ import Resume from "./images/resume.pdf"
 
 
 const Contact = styled.div`
-  
+  margin-bottom: 0.5em;
 `;
 
 
