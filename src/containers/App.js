@@ -13,6 +13,8 @@ import '../containers/App.css';
 
 //power transitions on home
 import {CSSTransition, TransitionGroup} from 'react-transition-group';
+import Fade from 'react-reveal/Fade';
+
 
 
 
@@ -84,12 +86,23 @@ class App extends Component {
     <MyNavbar/>
     <HeroContainer> 
     <HeroTitle>Hi!  I’m Sam.</HeroTitle>
+    <CSSTransition
+          in={this.state.isAnimated}
+          timeout={800}
+          classNames= "fade"
+          unmountOnExit
+          appear = {true}
+          // onEntered={this.isAnimated}
+          // onExit={this.isAnimated}
+    >
     <HeroSub> I’m a designer, entrepreneur, and undergrad at Stanford, building for community.</HeroSub>
+    </CSSTransition>
+
     </HeroContainer>
 
     <CSSTransition
           in={this.state.isAnimated}
-          timeout={1000}
+          timeout={800}
           classNames= "fade"
           unmountOnExit
           appear = {true}
@@ -107,7 +120,7 @@ class App extends Component {
     ></Feature>
 
     </CSSTransition>
-
+    <Fade > 
     <FeatureBk
     image = "./images/pink@2x.png"
     tag = "FULL STACK"
@@ -118,7 +131,9 @@ class App extends Component {
     link = "/connect"
     background = "#FCEADE"
     ></FeatureBk>
+    </Fade>
 
+    <Fade > 
     <FeatureRev
     image = "./images/microfeature@2x.png"
     tag = "UI DESIGN"
@@ -129,8 +144,10 @@ class App extends Component {
     link = "/case"
 
     ></FeatureRev>
+    </Fade>
 
 
+    <Fade> 
     <Feature
     image = "./images/RCfeature@2x.png"
     tag = "PRODUCT DESIGN"
@@ -140,6 +157,8 @@ class App extends Component {
     color = "#00cea1"
     link = "/random"
     ></Feature>
+      </Fade>
+
 
    
 

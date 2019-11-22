@@ -7,6 +7,7 @@ import App from '../containers/App.js';
 import About from '../containers/about.js';
 
 import '../components/nav.css';
+import {CSSTransition, TransitionGroup} from 'react-transition-group';
 
 
 class MyNavbar extends React.Component{

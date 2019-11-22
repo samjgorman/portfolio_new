@@ -8,6 +8,9 @@ import Paragraph from "../components/paragraph";
 import Social from "../components/social";
 import { BrowserRouter as Router, Route,Link, Switch } from 'react-router-dom';
 
+import {CSSTransition, TransitionGroup} from 'react-transition-group';
+import Fade from 'react-reveal/Fade';
+
 
 
 
@@ -157,7 +160,10 @@ const About = ( ) => {
     <MyNavbar/>
     <Wrapper> 
       <TextWrapper>
+
+   
         <CaseTitle > I’m interested in community.  </CaseTitle>
+
         <SocialWrapper> 
         <Social image = "fab fa-dribbble"
                 link = "https://dribbble.com/samjgorman"/>
@@ -172,17 +178,29 @@ const About = ( ) => {
 
 I’m from Los Angeles, but spend more time in the Bay Area now.   I founded Peerlift, a really fast and intuitive way to find scholarships, and helped 60,000 user find opportunities.   Most recently,  I spent time in Paris as the first product designer at an early stage French startup, where I built their second product expansion.</Text>
       </TextWrapper>
+      <CSSTransition
+          in= {true}
+          timeout={800}
+          classNames= "fade"
+          unmountOnExit
+          appear = {true}
+    >
       <ImageWrapper> <img className = "about-img" src ={sam} />   </ImageWrapper>
+
+      </CSSTransition> 
+
     </Wrapper>
 
     <Bar/>
     
+    <Fade> 
     <InfoWrapper> 
         <Info>I created my own major within the School of Engineering to study product design and computer science.   I’m calling it Interaction Design, because  I focus on understanding how we craft digital experiences from human-centered needfinding to production code.</Info>
         <Info> I like to block out chunks of time to start software projects, practice my French & German, experiment with mediums to bring people together, write Medium drafts that I don’t publish,  and pursue what I’m most curious about.  As of late, I’ve been thinking a lot about the incentive schemes behind open-source software development, and more broadly, how to engineer a digital community that solves problems together.</Info>
         <Info> I’ve grown passionate about shipping my own products in code, mostly through experience building fullstack apps with technologies like React and Vue.  As a factor of all that,  I’m super interested in how design and engineering will converge in the near future.</Info>
         <Info> If you find any of this interesting, or want to chat about crafting communities, engineering productivity, or the future of travel ( or maybe just want to say hi!),  drop a line to  sgorman at stanford.edu and let’s talk.  </Info>
     </InfoWrapper>
+    </Fade>
 
 
     <Footer/>
