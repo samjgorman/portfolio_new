@@ -9,6 +9,11 @@ import Feature from "../feature";
 import FeatureRev from "../feature-rev";
 import FeatureBk from "../feature-bk";
 import styled, { css } from 'styled-components'
+import '../containers/App.css';
+
+//power transitions on home
+import {CSSTransition, TransitionGroup} from 'react-transition-group';
+
 
 
 
@@ -67,14 +72,14 @@ class App extends Component {
     super(props);
     //now assign state, and a default value, doesnt matter if i say data
     this.state = {
-      //contacts: []
+      isAnimated: true,
     };
   }
  
 
   render() {
   return (
-
+    
     <div className = 'home-wrapper'> 
     <MyNavbar/>
     <HeroContainer> 
@@ -82,18 +87,26 @@ class App extends Component {
     <HeroSub> I’m a designer, entrepreneur, and undergrad at Stanford, building for community.</HeroSub>
     </HeroContainer>
 
+    <CSSTransition
+          in={this.state.isAnimated}
+          timeout={1000}
+          classNames= "fade"
+          unmountOnExit
+          appear = {true}
+          // onEntered={this.isAnimated}
+          // onExit={this.isAnimated}
+    >
     <Feature
-    
-
-     image = "./images/figma@2x.png"
+    image = "./images/figma@2x.png"
     tag = "UI DESIGN"
     title = "Figma Plugins"
     text = "A redesign of the popular design software for Kleiner Perkins Fellows."
     shade = "85,81,255, 0.5"
     color = "#5551FF"
     link = "/figma-kp"
- 
     ></Feature>
+
+    </CSSTransition>
 
     <FeatureBk
     image = "./images/pink@2x.png"

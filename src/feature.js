@@ -19,7 +19,6 @@ const Wrapper = styled.div`
       margin-left: 2em;
       padding-bottom: 2em;
       padding-top: 2em;
-      
     }
 
     @media (max-width: 800px) {
@@ -56,7 +55,6 @@ const Text = styled.div`
     padding-right: 2em;
     line-height: 2;
     overflow-wrap: break-word;
-
 
     @media (max-width:1200px) {
       padding-right: 0em;

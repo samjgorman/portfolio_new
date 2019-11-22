@@ -19,6 +19,36 @@
   color: white;
 }
 
+.fade-enter{
+  opacity: 0;
+}
+
+.fade-appear{
+  opacity: 0.01;
+
+  
+}
+
+.fade-appear.fade-appear-active { 
+  opacity: 1;
+
+  transition: opacity 1000ms ease-in;
+
+
+}
+/* This fires as soon as the this.state.showList is false */
+.fade-exit{
+  opacity: 1;
+  transform: translate(0, 0)
+
+}
+/* fires as element leaves the DOM*/
+.fade-exit-active{
+  opacity: 0.01;
+  transition: opacity 1000ms ease-in;
+
+}
+
 .App-link {
   color: #61dafb;
 }
