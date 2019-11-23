@@ -298,7 +298,7 @@ class Figma extends Component {
      ></Title>
 
      <Paragraph
-     text = "Many designers critique external redesign projects, and they're not fully wrong.  I, Sam Gorman, am good designer (I think).  But I won't pretend I somehow have more insight during a four-day sprint than the entire product team of Figma combined."
+     text = "Many designers critique external redesign projects, and they're not fully wrong.  I, Sam Gorman, am a good designer (I think).  But I won't pretend I somehow have more insight during a four-day sprint than the entire product team of Figma combined."
     >
      </Paragraph>
 

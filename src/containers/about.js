@@ -160,8 +160,6 @@ const About = ( ) => {
     <MyNavbar/>
     <Wrapper> 
       <TextWrapper>
-
-   
         <CaseTitle > I’m interested in community.  </CaseTitle>
 
         <SocialWrapper> 

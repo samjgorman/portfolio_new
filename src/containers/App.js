@@ -51,7 +51,7 @@ color: #f03f6d;
 `;
 
 const HeroSub= styled.div`
-font-family: Oxygen;
+font-family: Overpass;
 font-size: 24px;
 line-height:2em;
 
