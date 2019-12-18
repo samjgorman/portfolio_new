@@ -172,9 +172,9 @@ const About = ( ) => {
                  <Social image = "fab fa-github"
                 link = "https://github.com/samjgorman"/>
         </SocialWrapper>
-          <Text>I’m a product designer, entrepreneur, and junior studying at Stanford, and thinking about ideas that mobilize and empower groups.
+          <Text>I’m a product designer, entrepreneur, and junior studying at Stanford, thinking about ideas that mobilize and empower groups.
 
-I’m from Los Angeles, but spend more time in the Bay Area now.   I founded Peerlift, a really fast and intuitive way to find scholarships, and helped 60,000 user find opportunities.   Most recently,  I spent time in Paris as the first product designer at an early stage French startup, where I built their second product expansion.</Text>
+I’m from Los Angeles, but spend more time in the Bay Area now.   I founded Peerlift, a really fast and intuitive way to find scholarships, and helped 60,000 users find opportunities.   Most recently,  I spent time in Paris as the first product designer at an early stage French startup, where I built their second product expansion.</Text>
       </TextWrapper>
       <CSSTransition
           in= {true}
